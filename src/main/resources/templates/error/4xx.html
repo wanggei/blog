@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head th:replace="error/_fragment :: hader(~{::title})">
+    <meta charset="UTF-8">
+    <title>4xx</title>
+</head>
+<body>
+<nav  class="ui inverted attached segment my-padded-tb-mini" th:replace="error/_fragment :: nav"></nav>
+<br>
+<br>
+<br>
+<br>
+        <div class="my-padded-massive">
+            <div class="ui container">
+                <div class="ui segment">
+                    <div class="ui red message">
+                        <h1>404</h1>
+                        <h2>出问题啦，请联系管理员, QQ:17799749389</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer  class="ui inverted vertical segment my-padded-massive" th:replace="error/_fragment :: footer"></footer>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="hader(title)">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情页</title>
+    <link type="text/css" href="css/semantic.min.css"  rel="stylesheet" th:href="@{/webjars/Semantic-UI/2.2.10/semantic.css}" />
+    <link type="text/css" href="./css/index.css" rel="stylesheet" th:href="@{/css/index.css}"/>
+    <link type="text/css" href="./css/blog.css" rel="stylesheet" th:href="@{/css/blog.css}"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.min.css" th:href="@{/css/animate.min.css}">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css' th:href="@{https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css}">
+</head>
+<body>
+<nav th:fragment="nav" class="ui inverted attached segment my-padded-tb-mini" >
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="item m-model-hide m-item" th:classappend="${n==1} ? 'active'" th:href="@{/}"><i class="home icon"></i>首页</a>
+            <a href="#" class="item m-model-hide m-item" th:classappend="${n==2} ? 'active'" th:href="@{types}" ><i class="idea icon"></i>分类</a>
+            <a href="#" class="item m-model-hide m-item" th:classappend="${n==3} ? 'active>'" th:href="@{/tags}"><i class="tags icon"></i>标签</a>
+            <a href="#" class="item m-model-hide m-item" th:classappend="${n==4} ? 'active>'" th:href="@{/archived}"><i class="folder open icon"></i>归纳</a>
+            <a href="#" class="item m-model-hide m-item" th:classappend="${n==5} ? 'active'" th:href="@{/aboutme}"><i class="info icon"></i>关于我</a>
+            <div class="right item m-model-hide m-item">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui black icon button m-margin-top">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+<br/>
+<br/>
+<br/><br/>
+
+
+<footer class="ui inverted vertical segment my-padded-massive" th:fragment="footer">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided grid stackable">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="./image/weixin.jpg" class="ui rounded image" alt="" style="width: 110px" th:src="@{../image/weixin.jpg}">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email：1799749389@qq.com</a>
+                    <a href="#" class="item">QQ：1799749389</a>
+
+                </div>
+            </div>
+            <div class="six wide column">
+                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">My Blue</h4>
+                <p class="my-opacity-mini my-text-lined">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider "></div>
+        <p class="my-text-thin my-text-spaced my-text-lined my-opacity-mini">Copyright &copy; 2020 skg-xsn Designed by skg-xsn</p>
+    </div>
+</footer>
+</body>
+</html>

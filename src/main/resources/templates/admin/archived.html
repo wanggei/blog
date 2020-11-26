@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/_fragment :: hader(~{::title})">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>博客归纳</title>
+	<link type="text/css" href="../../static/css/semantic.min.css" rel="stylesheet" th:href="@{/webjars/Semantic-UI/2.2.10/semantic.css}" />
+	<link type="text/css" href="../../static/css/index.css" rel="stylesheet" th:href="@{/static/css/index.css}"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/components/icon.min.css" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/components/icon.min.css}">
+</head>
+	<body>
+		<!-- 导航栏 -->
+		<nav class="ui inverted attached segment my-padded-tb-mini" th:replace="admin/_fragment :: nav(3)">
+		    <div class="ui container">
+		        <div class="ui inverted secondary stackable menu">
+		            <h2 class="ui teal header item">Blog</h2>
+		            <a href="#" class="item m-model-hide m-item"><i class="home icon"></i>首页</a>
+		            <a href="#" class="item m-model-hide m-item"><i class="idea icon"></i>分类</a>
+		            <a href="#" class="item m-model-hide m-item"><i class="tags icon"></i>标签</a>
+		            <a href="#" class="item m-model-hide m-item"><i class="info icon"></i>关于我</a>
+		            <div class="right item m-model-hide m-item">
+		                <div class="ui icon inverted transparent input">
+		                    <input type="text" placeholder="Search...">
+		                    <i class="search link icon"></i>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+			<a href="#" class="ui black icon button m-margin-top">
+				<i class="sidebar icon"></i>
+			</a>
+		</nav>
+		
+		<div class="m-margin-max">
+			<div class=" ui container">
+				<div class="ui top  padded segment">
+					<div class="ui two column middle aligned grid ">
+						<div class="column">
+							<h3 class="ui header teal">归纳</h3>
+						</div>
+						<div class=" right aligned column">
+							共 <h2 class="ui header orange m-dlock" th:text="${length}">114</h2> 篇博客
+						</div>
+					</div>
+				</div>
+				<th:block th:each="item :${map}">
+					<h2 class="ui center aligned header" th:text="${item.key}">2017</h2>
+					<div class="ui vertical fluid menu">
+						<a href="#" class="item " th:each="blog : ${item.value}" th:href="@{/blogmessage(id=${blog.id})}">
+						<span>
+							<i class="ui mini" th:text="${blog.title}">关于mysql的基本操作</i>
+							<div class="ui teal left pointing label basic my-padded-tb-mini" th:text="${#dates.format(blog.updatetime,'MM月dd')}">9月03</div>
+						</span>
+							<div class="ui orange left pointing label basic my-padded-tb-mini" th:text="${blog.flag}">原创</div>
+						</a>
+					</div>
+				</th:block>
+
+			</div>
+		  </div>
+		<!-- 页脚 -->
+		<footer class="ui inverted vertical segment my-padded-massive" th:replace="admin/_fragment :: footer">
+			 <div class="ui center aligned container">
+			        <div class="ui inverted divided grid stackable">
+			            <div class="three wide column">
+			                <div class="ui inverted link list">
+			                    <div class="item">
+			                        <img src="../../static/image/weixin.jpg" class="ui rounded image" alt="" style="width: 110px">
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="three wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">最新博客</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                </div>
+			            </div>
+			            <div class="four wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">联系我</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">Email：1799749389@qq.com</a>
+			                    <a href="#" class="item">QQ：1799749389</a>
+			                   
+			                </div>
+			            </div>
+			            <div class="six wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">My Blue</h4>
+			                <p class="my-opacity-mini my-text-lined">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+			            </div>
+			        </div>
+			        <div class="ui inverted section divider "></div>
+			        <p class="my-text-thin my-text-spaced my-text-lined my-opacity-mini">Copyright &copy; 2020 skg-xsn Designed by skg-xsn</p>
+			    </div>
+		</footer>
+
+
+
+		<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+		<script type="text/javascript" src="../../static/js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+		<script>
+			$('.m-margin-top').click(function(){
+				$('.m-item').toggleClass('m-model-hide')
+			});
+			$('#latestblog').load('/admin/newblogList');
+		</script>
+	</body>
+</html>

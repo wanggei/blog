@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/_fragment :: hader(~{::title})">
+    <meta charset="UTF-8">
+    <title>管理员首页</title>
+</head>
+<body>
+<nav class="ui inverted attached segment my-padded-tb-mini" th:replace="admin/_fragment :: nav(0)"></nav>
+
+<div class="m-contain-max">
+    <div class="ui container my-padded-left-right-max">
+       <div class="ui large success message">
+           <h3>Hi,</h3>
+           <p th:text="${session.user.getUsername()+',欢迎回来!!!'}">隔壁你家老王，欢迎回来！！</p>
+       </div>
+        <div class="ui segment">
+            <img src="" alt="" th:src="@{https://picsum.photos/800/400}" class="ui rounded image">
+        </div>
+    </div>
+</div>
+<footer class="ui inverted vertical segment my-padded-massive" th:replace="admin/_fragment :: footer"></footer>
+<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+<script type="text/javascript" src="js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+</body>
+<script>
+    $('.m-margin-top').click(function(){
+        $('.m-item').toggleClass('m-model-hide')
+    });
+    $('.ui.dropdown').dropdown({
+        on:'hover'
+    });
+    $('#latestblog').load('/admin/newblogList');
+</script>
+</html>

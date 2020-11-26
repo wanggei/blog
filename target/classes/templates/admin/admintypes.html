@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head >
+		<meta charset="utf-8" th:replace="admin/_fragment :: hader(~{::title})">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>分类管理</title>
+		<link type="text/css" href="css/semantic.min.css"  rel="stylesheet"/>
+		<link type="text/css" href="./css/index.css" rel="stylesheet" />
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+	</head>
+	<body>
+		<nav class="ui inverted attached segment my-padded-tb-mini" th:replace="admin/_fragment :: nav(5)">
+		    <div class="ui container">
+		        <div class="ui inverted secondary stackable menu">
+		            <h2 class="ui teal header item">Blog</h2>		           
+		            <a href="#" class="item m-model-hide m-item"><i class="idea icon"></i>分类</a>
+		            <a href="#" class="item m-model-hide m-item "><i class="tags icon"></i>标签</a>
+		            <a href="#" class="item m-model-hide m-item"><i class="info icon"></i>关于我</a>
+		            <div class="right menu">
+		                <div class="ui dropdown item">
+							<div class="text">
+								<img src="https://picsum.photos/seed/picsum/200/300" style="width: 30px; height: 50px;"  class="ui avatar image"/>
+								隔壁你家老王
+							</div>
+							<i class="dropdown icon"></i>
+							<div class="ui menu">
+								<a href="#" class="item">注销</a>
+							</div>
+						</div>
+		            </div>
+		        </div>
+		    </div>
+			<a href="#" class="ui black icon button m-margin-top">
+				<i class="sidebar icon"></i>
+			</a>
+		</nav>
+<!--		<div class="ui success message" th:unless="${#strings.isEmpty(message)}">-->
+		<!--			<i class="close icon"></i>-->
+		<!--			<div class="header">提示:</div>-->
+		<!--			<p>恭喜,操作成功</p>-->
+		<!--		</div>-->
+		<div class="ui attached pointing menu">
+			<div class="ui container">
+				<div class=" right menu">
+					<a href="#" class="item">分类</a>
+
+					<a href="#" class="item teal active">列表</a>
+				</div>
+			</div>
+		</div>
+		<div class="m-contain-max my-padded-left-right ">
+			<div class="ui container ">
+				<form action="#" method="get" class="ui form segment" id="searchForm" th:action="@{/admin/searchType}">
+					<div class="inline fields">
+						<div class="field">
+							<input type="text" placeholder="分类" name="classify" />
+						</div>
+						<div class="field">
+							<button class="ui basic teal mini button" type="submit" ><i class="search icon"></i>搜索</button>
+						</div>
+						<div class="field" th:if="${typesPage.pageNum}!=1">
+							<a href="#" class="ui orange basic mini button" th:href="@{/admin/admintypes}">返回分类操作首页</a>
+						</div>
+					</div>
+				</form>
+
+					<table  class="ui table compact celled " >
+						<thead>
+						<tr style="text-align: center">
+							<th>id</th>
+							<th>分类名</th>
+							<th>操作</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr th:each="typesOne : ${typesPage.list} " style="text-align: center">
+							<td th:text="${typesOne.id}">1</td>
+							<td th:text="${typesOne.name}">方法论</td>
+							<td><a href="#" class="ui basic primary mini button" th:href="@{/admin/updateTypes(id=${typesOne.id})}">更新</a> <a href="#" class="ui basic negative mini button"  onclick="deleteTypes(this)">删除</a></td>
+						</tr>
+						</tbody>
+					</table>
+					<div>
+						<button href="#" class="ui teal basic left floated button" onclick="Addtypes()">新增</button>
+						<div class="ui right floated pagination menu" id="pageinfo">
+							<p class=" icon item" style="margin-bottom: 0px">第<span th:text="${typesPage.pageNum}" class="ui teal " style="color: teal"></span>页/共<span th:text="${typesPage.pages}" class="ui teal " style="color: teal"></span>页</p>
+							<a class="ui icon item button" th:href="@{/admin/admintypes(pageNum=${typesPage.navigateFirstPage},pageSize=5)}" style="color: teal" id="pageIndex">首页
+
+							</a>
+							<a class="ui icon item teal button" th:href="@{/admin/admintypes(pageNum=${typesPage.prePage},pageSize=5)}" style="color: teal" id="prePage">上一页
+
+							</a>
+
+							<a class="ui icon item teal button" th:href="@{/admin/admintypes(pageNum=${typesPage.nextPage},pageSize=5)}" style="color: teal" id="nextPage">下一页
+
+							</a>
+							<a class="ui icon item teal button" th:href="@{/admin/admintypes(pageNum=${typesPage.navigateLastPage},pageSize=5)}" style="color: teal" id="LastPage">尾页
+
+							</a>
+						</div>
+					</div>
+				</div>
+			
+			
+		</div>
+		
+		<footer class="ui inverted vertical segment my-padded-massive" th:replace="admin/_fragment :: footer">
+			 <div class="ui center aligned container">
+			        <div class="ui inverted divided grid stackable">
+			            <div class="three wide column">
+			                <div class="ui inverted link list">
+			                    <div class="item">
+			                        <img src="./image/weixin.jpg" class="ui rounded image" alt="" style="width: 110px">
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="three wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">最新博客</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                </div>
+			            </div>
+			            <div class="four wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">联系我</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">Email：1799749389@qq.com</a>
+			                    <a href="#" class="item">QQ：1799749389</a>
+			                   
+			                </div>
+			            </div>
+			            <div class="six wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">My Blue</h4>
+			                <p class="my-opacity-mini my-text-lined">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+			            </div>
+			        </div>
+			        <div class="ui inverted section divider "></div>
+			        <p class="my-text-thin my-text-spaced my-text-lined my-opacity-mini">Copyright &copy; 2020 skg-xsn Designed by skg-xsn</p>
+			    </div>
+		</footer>
+		<div class="ui modal " style="width: 400px !important; margin-left: -200px!important;">
+			<i class="close icon"></i>
+			<div class="header">
+				新增分类
+			</div>
+			<form action="" class=" ui form my-padded-left-right-thin my-padded-tb-max" id="form" method="post">
+				<div class="field">
+					<label>分类名称</label>
+					<input type="text" placeholder="分类名称" name="typename" class="typename"/>
+
+				</div>
+				<div class="field right aligned">
+					<button  class="ui teal basic mini  button" onclick="Addsubmit()">保存</button>
+				</div>
+				<div class="ui error message"></div>
+			</form>
+
+		</div>
+
+
+		<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+		<script type="text/javascript" src="js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+		<script>
+			$('.m-margin-top').click(function(){
+				$('.m-item').toggleClass('m-model-hide')
+			});
+			$('.ui.dropdown').dropdown({
+				on:'hover'
+			});
+			function deleteTypes(data){
+				if(confirm("确定要删除这条记录吗?")){
+					var $this=$(data);
+					var uid=$this.parent().prev().prev().text();
+					$.ajax({
+						url:"/admin/deleteTypes",
+						type:"post",
+						data:{"id":uid},
+						success:function(data){
+							if(data=="success"){
+								$(location).attr("href","/admin/admintypes");
+							}
+
+						},
+						error:function(){
+
+						}
+
+					});
+				}else{
+					return false;
+				}
+			};
+			function Addtypes() {
+				$('.ui.modal').modal('show');
+			};
+			function Addsubmit() {
+				var text=$("#form .typename").val();
+
+				if (text==""){
+
+				}else {
+					$.ajax({
+						url:'/admin/addtypes',
+						type:'post',
+						data:$('#form').serialize(),
+						success:function (data) {
+							if (data=="success"){
+								$(location).attr("href","/admin/admintypes");
+							}
+						},
+						error:function () {
+							alert("添加错误");
+						}
+					})
+				}
+
+			};
+			function searchSubmit() {
+				$.ajax({
+					url:"/admin/searchType",
+					type:"get",
+					data:$("#searchForm").serialize(),
+					success:function (data) {
+
+					},
+					error:function () {
+						alert("出错啦");
+					}
+				})
+			};
+
+			$(".ui.modal > .ui.form").form({
+				fields:{
+					typename :{
+						identifier: 'typename',
+						rules: [
+							{
+								type   : 'empty',
+								prompt : '请输入内容！！'
+							}
+						]
+					}
+				}
+			});
+			$(".message .close").on('click',function () {
+				$(this).closest('.message').transition('fade')
+			});
+			var pagetext=$("#pageinfo > p >span:first-child").text();
+			var Lastpage=$("#pageinfo > p >span:last-child").text();
+			if (pagetext=="1"){
+				$("#prePage").addClass("disabled");
+				$("#pageIndex").addClass("disabled");
+
+			};
+			if (pagetext==Lastpage){
+				$("#nextPage").addClass('disabled');
+				$("#LastPage").addClass('disabled');
+			};
+			$('#latestblog').load('/admin/newblogList');
+		</script>
+	</body>
+</html>

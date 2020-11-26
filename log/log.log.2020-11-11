@@ -1,0 +1,193 @@
+
+ 2020-11-11 20:49:41,581 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001,procId-71} connected  
+ 
+ 2020-11-11 20:49:41,630 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002,procId-72} connected  
+ 
+ 2020-11-11 20:49:41,666 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003,procId-73} connected  
+ 
+ 2020-11-11 20:49:41,699 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004,procId-74} connected  
+ 
+ 2020-11-11 20:49:41,732 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005,procId-75} connected  
+ 
+ 2020-11-11 20:49:41,747 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-11 20:49:42,206 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} created. select * from t_user where username=?  
+ 
+ 2020-11-11 20:49:42,225 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : [zhangsan]  
+ 
+ 2020-11-11 20:49:42,225 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : [VARCHAR]  
+ 
+ 2020-11-11 20:49:42,236 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 14.2633 millis. select * from t_user where username=?  
+ 
+ 2020-11-11 20:49:42,240 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} open  
+ 
+ 2020-11-11 20:49:42,242 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, password, email, type, avator, time, updatetime]  
+ 
+ 2020-11-11 20:49:42,253 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [1, zhangsan, $2a$10$MqW9MEpSHtHfWFLp6egUmura2I/R1i40h9xN6vTy45FepVlEe6Mxy, 1799749389@qq.com, 1, https://picsum.photos/seed/picsum/200/300, 2020-11-12 04:35:11.0, 2020-11-12 04:35:11.0]  
+ 
+ 2020-11-11 20:49:42,257 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} closed  
+ 
+ 2020-11-11 20:49:42,259 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-11 20:49:42,260 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-11 20:54:59,276 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001,procId-76} connected  
+ 
+ 2020-11-11 20:54:59,304 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002,procId-77} connected  
+ 
+ 2020-11-11 20:54:59,319 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003,procId-78} connected  
+ 
+ 2020-11-11 20:54:59,334 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004,procId-79} connected  
+ 
+ 2020-11-11 20:54:59,349 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005,procId-80} connected  
+ 
+ 2020-11-11 20:54:59,356 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-11 20:54:59,711 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} created. select * from t_user where username=?  
+ 
+ 2020-11-11 20:54:59,734 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : [zhangsan]  
+ 
+ 2020-11-11 20:54:59,735 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : [VARCHAR]  
+ 
+ 2020-11-11 20:54:59,747 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 18.713 millis. select * from t_user where username=?  
+ 
+ 2020-11-11 20:54:59,755 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} open  
+ 
+ 2020-11-11 20:54:59,758 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, password, email, type, avator, time, updatetime]  
+ 
+ 2020-11-11 20:54:59,777 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [1, zhangsan, $2a$10$MqW9MEpSHtHfWFLp6egUmura2I/R1i40h9xN6vTy45FepVlEe6Mxy, 1799749389@qq.com, 1, https://picsum.photos/seed/picsum/200/300, 2020-11-12 04:35:11.0, 2020-11-12 04:35:11.0]  
+ 
+ 2020-11-11 20:54:59,784 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} closed  
+ 
+ 2020-11-11 20:54:59,787 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-11 20:54:59,789 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-11 21:08:02,279 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001,procId-81} connected  
+ 
+ 2020-11-11 21:08:02,308 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002,procId-82} connected  
+ 
+ 2020-11-11 21:08:02,331 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003,procId-83} connected  
+ 
+ 2020-11-11 21:08:02,351 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004,procId-84} connected  
+ 
+ 2020-11-11 21:08:02,378 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005,procId-85} connected  
+ 
+ 2020-11-11 21:08:02,389 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-11 21:08:02,959 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} created. select * from t_user where username=?  
+ 
+ 2020-11-11 21:08:03,011 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : [zhangsan]  
+ 
+ 2020-11-11 21:08:03,013 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : [VARCHAR]  
+ 
+ 2020-11-11 21:08:03,044 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 42.1847 millis. select * from t_user where username=?  
+ 
+ 2020-11-11 21:08:03,058 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} open  
+ 
+ 2020-11-11 21:08:03,065 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, password, email, type, avator, time, updatetime]  
+ 
+ 2020-11-11 21:08:03,102 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [1, zhangsan, $2a$10$MqW9MEpSHtHfWFLp6egUmura2I/R1i40h9xN6vTy45FepVlEe6Mxy, 1799749389@qq.com, 1, https://picsum.photos/seed/picsum/200/300, 2020-11-12 04:35:11.0, 2020-11-12 04:35:11.0]  
+ 
+ 2020-11-11 21:08:03,116 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} closed  
+ 
+ 2020-11-11 21:08:03,122 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-11 21:08:03,126 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-11 21:09:10,448 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001,procId-86} connected  
+ 
+ 2020-11-11 21:09:10,496 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002,procId-87} connected  
+ 
+ 2020-11-11 21:09:10,538 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003,procId-88} connected  
+ 
+ 2020-11-11 21:09:10,565 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004,procId-89} connected  
+ 
+ 2020-11-11 21:09:10,588 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005,procId-90} connected  
+ 
+ 2020-11-11 21:09:10,596 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-11 21:09:10,861 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} created. select * from t_user where username=?  
+ 
+ 2020-11-11 21:09:10,901 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : [zhangsan]  
+ 
+ 2020-11-11 21:09:10,902 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : [VARCHAR]  
+ 
+ 2020-11-11 21:09:10,932 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 37.3962 millis. select * from t_user where username=?  
+ 
+ 2020-11-11 21:09:10,943 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} open  
+ 
+ 2020-11-11 21:09:10,950 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, password, email, type, avator, time, updatetime]  
+ 
+ 2020-11-11 21:09:10,986 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [1, zhangsan, $2a$10$MqW9MEpSHtHfWFLp6egUmura2I/R1i40h9xN6vTy45FepVlEe6Mxy, 1799749389@qq.com, 1, https://picsum.photos/seed/picsum/200/300, 2020-11-12 04:35:11.0, 2020-11-12 04:35:11.0]  
+ 
+ 2020-11-11 21:09:11,000 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} closed  
+ 
+ 2020-11-11 21:09:11,006 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-11 21:09:11,010 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-11 21:15:38,064 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001,procId-91} connected  
+ 
+ 2020-11-11 21:15:38,094 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002,procId-92} connected  
+ 
+ 2020-11-11 21:15:38,108 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003,procId-93} connected  
+ 
+ 2020-11-11 21:15:38,121 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004,procId-94} connected  
+ 
+ 2020-11-11 21:15:38,137 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005,procId-95} connected  
+ 
+ 2020-11-11 21:15:38,143 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-11 21:15:38,825 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} created. select * from t_user where username=?  
+ 
+ 2020-11-11 21:15:38,854 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : [zhangsan]  
+ 
+ 2020-11-11 21:15:38,855 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : [VARCHAR]  
+ 
+ 2020-11-11 21:15:38,872 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 22.6997 millis. select * from t_user where username=?  
+ 
+ 2020-11-11 21:15:38,885 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} open  
+ 
+ 2020-11-11 21:15:38,892 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, password, email, type, avator, time, updatetime]  
+ 
+ 2020-11-11 21:15:38,916 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [1, zhangsan, $2a$10$MqW9MEpSHtHfWFLp6egUmura2I/R1i40h9xN6vTy45FepVlEe6Mxy, 1799749389@qq.com, 1, https://picsum.photos/seed/picsum/200/300, 2020-11-12 04:35:11.0, 2020-11-12 04:35:11.0]  
+ 
+ 2020-11-11 21:15:38,924 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} closed  
+ 
+ 2020-11-11 21:15:38,927 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-11 21:15:38,929 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-11 21:19:08,914 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001,procId-96} connected  
+ 
+ 2020-11-11 21:19:08,943 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002,procId-97} connected  
+ 
+ 2020-11-11 21:19:08,966 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003,procId-98} connected  
+ 
+ 2020-11-11 21:19:08,985 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004,procId-99} connected  
+ 
+ 2020-11-11 21:19:09,006 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005,procId-100} connected  
+ 
+ 2020-11-11 21:19:09,014 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-11 21:19:09,603 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} created. select * from t_user where username=?  
+ 
+ 2020-11-11 21:19:09,632 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : [zhangsan]  
+ 
+ 2020-11-11 21:19:09,633 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : [VARCHAR]  
+ 
+ 2020-11-11 21:19:09,647 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 19.861 millis. select * from t_user where username=?  
+ 
+ 2020-11-11 21:19:09,656 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} open  
+ 
+ 2020-11-11 21:19:09,662 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, password, email, type, avator, time, updatetime]  
+ 
+ 2020-11-11 21:19:09,697 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [1, zhangsan, $2a$10$MqW9MEpSHtHfWFLp6egUmura2I/R1i40h9xN6vTy45FepVlEe6Mxy, 1799749389@qq.com, 1, https://picsum.photos/seed/picsum/200/300, 2020-11-12 04:35:11.0, 2020-11-12 04:35:11.0]  
+ 
+ 2020-11-11 21:19:09,711 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} closed  
+ 
+ 2020-11-11 21:19:09,717 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-11 21:19:09,721 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 

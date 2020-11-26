@@ -1,0 +1,2235 @@
+
+ 2020-11-26 19:53:36,773 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001,procId-1287} connected  
+ 
+ 2020-11-26 19:53:36,801 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002,procId-1288} connected  
+ 
+ 2020-11-26 19:53:36,819 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003,procId-1289} connected  
+ 
+ 2020-11-26 19:53:36,835 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004,procId-1290} connected  
+ 
+ 2020-11-26 19:53:36,851 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005,procId-1291} connected  
+ 
+ 2020-11-26 19:53:36,858 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:37,155 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} created. select * from t_types  
+ 
+ 2020-11-26 19:53:37,188 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : []  
+ 
+ 2020-11-26 19:53:37,189 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : []  
+ 
+ 2020-11-26 19:53:37,215 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 34.0811 millis. select * from t_types  
+ 
+ 2020-11-26 19:53:37,222 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} open  
+ 
+ 2020-11-26 19:53:37,225 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Header: [id, name]  
+ 
+ 2020-11-26 19:53:37,243 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [8, 方法论]  
+ 
+ 2020-11-26 19:53:37,247 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [9, 理论类]  
+ 
+ 2020-11-26 19:53:37,248 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [21, 错误日记]  
+ 
+ 2020-11-26 19:53:37,249 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} Result: [23, 开发日记]  
+ 
+ 2020-11-26 19:53:37,252 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50000} closed  
+ 
+ 2020-11-26 19:53:37,257 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-26 19:53:37,260 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:53:37,262 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:37,264 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} created. select * from t_tages  
+ 
+ 2020-11-26 19:53:37,266 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} Parameters : []  
+ 
+ 2020-11-26 19:53:37,267 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} Types : []  
+ 
+ 2020-11-26 19:53:37,271 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} executed. 5.1968 millis. select * from t_tages  
+ 
+ 2020-11-26 19:53:37,272 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50001} open  
+ 
+ 2020-11-26 19:53:37,273 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50001} Header: [id, tage]  
+ 
+ 2020-11-26 19:53:37,274 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50001} Result: [1, 学习日记]  
+ 
+ 2020-11-26 19:53:37,275 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50001} Result: [12, 开发日记]  
+ 
+ 2020-11-26 19:53:37,276 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50001} Result: [13, 数据库日记]  
+ 
+ 2020-11-26 19:53:37,278 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50001} closed  
+ 
+ 2020-11-26 19:53:37,279 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} clearParameters.   
+ 
+ 2020-11-26 19:53:37,280 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:53:37,283 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:37,284 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:53:37,339 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:37,480 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} created. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 19:53:37,482 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} Parameters : []  
+ 
+ 2020-11-26 19:53:37,482 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} Types : []  
+ 
+ 2020-11-26 19:53:37,492 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} executed. 10.26 millis. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 19:53:37,493 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50002} open  
+ 
+ 2020-11-26 19:53:37,494 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50002} Header: [count(0)]  
+ 
+ 2020-11-26 19:53:37,495 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50002} Result: [2]  
+ 
+ 2020-11-26 19:53:37,498 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50002} closed  
+ 
+ 2020-11-26 19:53:37,499 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} clearParameters.   
+ 
+ 2020-11-26 19:53:37,508 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} created. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 19:53:37,512 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} Parameters : [4]  
+ 
+ 2020-11-26 19:53:37,512 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} Types : [INTEGER]  
+ 
+ 2020-11-26 19:53:37,518 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} executed. 6.3966 millis. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 19:53:37,519 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50003} open  
+ 
+ 2020-11-26 19:53:37,520 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50003} Header: [username, avator, id, title, createtime, views, content, firstpicture, blogdescribe, id, publish, recommend]  
+ 
+ 2020-11-26 19:53:37,523 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50003} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 11, Java基本语法, 2020-11-19 16:11:12.0, 16, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容, 1, true, true]  
+ 
+ 2020-11-26 19:53:37,527 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50003} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 12, Java笔记, 2020-11-19 17:00:12.0, 9, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 这是一些有关于java基础的内容, 1, true, true]  
+ 
+ 2020-11-26 19:53:37,530 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50003} closed  
+ 
+ 2020-11-26 19:53:37,531 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} clearParameters.   
+ 
+ 2020-11-26 19:53:37,532 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:53:38,214 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:38,217 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : []  
+ 
+ 2020-11-26 19:53:38,218 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : []  
+ 
+ 2020-11-26 19:53:38,224 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 6.463 millis. select * from t_types  
+ 
+ 2020-11-26 19:53:38,225 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50004} open  
+ 
+ 2020-11-26 19:53:38,226 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50004} Header: [id, name]  
+ 
+ 2020-11-26 19:53:38,227 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50004} Result: [8, 方法论]  
+ 
+ 2020-11-26 19:53:38,229 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50004} Result: [9, 理论类]  
+ 
+ 2020-11-26 19:53:38,231 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50004} Result: [21, 错误日记]  
+ 
+ 2020-11-26 19:53:38,233 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50004} Result: [23, 开发日记]  
+ 
+ 2020-11-26 19:53:38,235 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50004} closed  
+ 
+ 2020-11-26 19:53:38,237 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-26 19:53:38,239 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:53:38,240 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:38,242 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} Parameters : []  
+ 
+ 2020-11-26 19:53:38,243 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} Types : []  
+ 
+ 2020-11-26 19:53:38,248 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} executed. 6.0152 millis. select * from t_tages  
+ 
+ 2020-11-26 19:53:38,250 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50005} open  
+ 
+ 2020-11-26 19:53:38,253 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50005} Header: [id, tage]  
+ 
+ 2020-11-26 19:53:38,287 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50005} Result: [1, 学习日记]  
+ 
+ 2020-11-26 19:53:38,289 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50005} Result: [12, 开发日记]  
+ 
+ 2020-11-26 19:53:38,292 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50005} Result: [13, 数据库日记]  
+ 
+ 2020-11-26 19:53:38,294 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50005} closed  
+ 
+ 2020-11-26 19:53:38,296 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} clearParameters.   
+ 
+ 2020-11-26 19:53:38,297 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:53:38,299 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:38,301 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} Parameters : []  
+ 
+ 2020-11-26 19:53:38,301 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} Types : []  
+ 
+ 2020-11-26 19:53:38,303 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} executed. 2.8452 millis. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 19:53:38,304 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50006} open  
+ 
+ 2020-11-26 19:53:38,305 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50006} Header: [count(0)]  
+ 
+ 2020-11-26 19:53:38,306 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50006} Result: [2]  
+ 
+ 2020-11-26 19:53:38,307 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50006} closed  
+ 
+ 2020-11-26 19:53:38,308 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} clearParameters.   
+ 
+ 2020-11-26 19:53:38,310 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} Parameters : [4]  
+ 
+ 2020-11-26 19:53:38,310 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} Types : [INTEGER]  
+ 
+ 2020-11-26 19:53:38,315 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} executed. 4.2719 millis. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 19:53:38,315 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50007} open  
+ 
+ 2020-11-26 19:53:38,316 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50007} Header: [username, avator, id, title, createtime, views, content, firstpicture, blogdescribe, id, publish, recommend]  
+ 
+ 2020-11-26 19:53:38,319 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50007} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 11, Java基本语法, 2020-11-19 16:11:12.0, 16, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容, 1, true, true]  
+ 
+ 2020-11-26 19:53:38,321 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50007} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 12, Java笔记, 2020-11-19 17:00:12.0, 9, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 这是一些有关于java基础的内容, 1, true, true]  
+ 
+ 2020-11-26 19:53:38,323 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50007} closed  
+ 
+ 2020-11-26 19:53:38,324 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} clearParameters.   
+ 
+ 2020-11-26 19:53:38,324 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:53:41,284 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:53:41,292 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} created. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:53:41,295 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} Parameters : []  
+ 
+ 2020-11-26 19:53:41,296 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} Types : []  
+ 
+ 2020-11-26 19:53:41,304 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} executed. 8.7373 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:53:41,305 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50008} open  
+ 
+ 2020-11-26 19:53:41,306 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50008} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:53:41,309 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50008} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 9, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:53:41,320 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50008} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:53:41,322 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50008} closed  
+ 
+ 2020-11-26 19:53:41,323 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} clearParameters.   
+ 
+ 2020-11-26 19:53:41,324 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:19,459 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:19,464 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20005} created. select us.username uname,us.avator avgtor, tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture,tb.blogdescribe, us.id uid,tb.publish,tb.recommend,tb.flag,
+         typ.name tname,typ.id typid
+          from
+        t_blog tb,t_user_blog tub,t_user us,t_types typ,t_blog_type tbt
+         where
+        tb.id=tub.bid and tub.uid=us.id and tbt.bid=tb.id and tbt.tyid=typ.id
+        and tb.id=?  
+ 
+ 2020-11-26 19:54:19,466 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20005} Parameters : [12]  
+ 
+ 2020-11-26 19:54:19,467 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20005} Types : [INTEGER]  
+ 
+ 2020-11-26 19:54:19,484 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20005} executed. 17.9789 millis. select us.username uname,us.avator avgtor, tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture,tb.blogdescribe, us.id uid,tb.publish,tb.recommend,tb.flag,
+         typ.name tname,typ.id typid
+          from
+        t_blog tb,t_user_blog tub,t_user us,t_types typ,t_blog_type tbt
+         where
+        tb.id=tub.bid and tub.uid=us.id and tbt.bid=tb.id and tbt.tyid=typ.id
+        and tb.id=?  
+ 
+ 2020-11-26 19:54:19,485 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20005, rs-50009} open  
+ 
+ 2020-11-26 19:54:19,486 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20005, rs-50009} Header: [username, avator, id, title, createtime, views, content, firstpicture, blogdescribe, id, publish, recommend, flag, name, id]  
+ 
+ 2020-11-26 19:54:19,487 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20005, rs-50009} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 12, Java笔记, 2020-11-19 17:00:12.0, 9, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 这是一些有关于java基础的内容, 1, true, true, 原创, 方法论, 8]  
+ 
+ 2020-11-26 19:54:19,489 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20005, rs-50009} closed  
+ 
+ 2020-11-26 19:54:19,490 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20005} clearParameters.   
+ 
+ 2020-11-26 19:54:19,491 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:19,493 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:19,500 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20006} created. update t_blog
+             SET views =views +1 
+        where id=?  
+ 
+ 2020-11-26 19:54:19,502 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20006} Parameters : [12]  
+ 
+ 2020-11-26 19:54:19,502 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20006} Types : [INTEGER]  
+ 
+ 2020-11-26 19:54:19,532 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20006} executed. 30.1212 millis. update t_blog
+             SET views =views +1 
+        where id=?  
+ 
+ 2020-11-26 19:54:19,533 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20006} clearParameters.   
+ 
+ 2020-11-26 19:54:19,534 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:21,607 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:21,610 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} Parameters : []  
+ 
+ 2020-11-26 19:54:21,611 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} Types : []  
+ 
+ 2020-11-26 19:54:21,617 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} executed. 7.2359 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:54:21,620 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50010} open  
+ 
+ 2020-11-26 19:54:21,621 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50010} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:54:21,625 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50010} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:54:21,631 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50010} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:54:21,636 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50010} closed  
+ 
+ 2020-11-26 19:54:21,638 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} clearParameters.   
+ 
+ 2020-11-26 19:54:21,641 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:21,656 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:21,665 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20007} created. select * from t_comment where parentcomment_id  is null and blog_id=?  ORDER BY creatTime desc  
+ 
+ 2020-11-26 19:54:21,669 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20007} Parameters : [12]  
+ 
+ 2020-11-26 19:54:21,671 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20007} Types : [INTEGER]  
+ 
+ 2020-11-26 19:54:21,676 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20007} executed. 7.2432 millis. select * from t_comment where parentcomment_id  is null and blog_id=?  ORDER BY creatTime desc  
+ 
+ 2020-11-26 19:54:21,678 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20007, rs-50011} open  
+ 
+ 2020-11-26 19:54:21,679 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20007, rs-50011} Header: [id, nickename, email, content, avator, creattime, blog_id, parentcomment_id]  
+ 
+ 2020-11-26 19:54:21,682 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20007, rs-50011} closed  
+ 
+ 2020-11-26 19:54:21,684 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20007} clearParameters.   
+ 
+ 2020-11-26 19:54:21,686 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:37,778 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:37,780 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Parameters : []  
+ 
+ 2020-11-26 19:54:37,781 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} Types : []  
+ 
+ 2020-11-26 19:54:37,782 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} executed. 2.5229 millis. select * from t_types  
+ 
+ 2020-11-26 19:54:37,783 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50012} open  
+ 
+ 2020-11-26 19:54:37,783 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50012} Header: [id, name]  
+ 
+ 2020-11-26 19:54:37,784 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50012} Result: [8, 方法论]  
+ 
+ 2020-11-26 19:54:37,785 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50012} Result: [9, 理论类]  
+ 
+ 2020-11-26 19:54:37,786 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50012} Result: [21, 错误日记]  
+ 
+ 2020-11-26 19:54:37,787 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50012} Result: [23, 开发日记]  
+ 
+ 2020-11-26 19:54:37,788 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20000, rs-50012} closed  
+ 
+ 2020-11-26 19:54:37,788 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20000} clearParameters.   
+ 
+ 2020-11-26 19:54:37,789 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:37,790 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:37,791 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} Parameters : []  
+ 
+ 2020-11-26 19:54:37,791 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} Types : []  
+ 
+ 2020-11-26 19:54:37,794 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} executed. 2.8316 millis. select * from t_tages  
+ 
+ 2020-11-26 19:54:37,796 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50013} open  
+ 
+ 2020-11-26 19:54:37,797 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50013} Header: [id, tage]  
+ 
+ 2020-11-26 19:54:37,797 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50013} Result: [1, 学习日记]  
+ 
+ 2020-11-26 19:54:37,798 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50013} Result: [12, 开发日记]  
+ 
+ 2020-11-26 19:54:37,799 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50013} Result: [13, 数据库日记]  
+ 
+ 2020-11-26 19:54:37,800 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20001, rs-50013} closed  
+ 
+ 2020-11-26 19:54:37,801 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20001} clearParameters.   
+ 
+ 2020-11-26 19:54:37,801 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:37,805 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:37,808 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} Parameters : []  
+ 
+ 2020-11-26 19:54:37,808 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} Types : []  
+ 
+ 2020-11-26 19:54:37,810 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} executed. 2.6211 millis. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 19:54:37,811 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50014} open  
+ 
+ 2020-11-26 19:54:37,812 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50014} Header: [count(0)]  
+ 
+ 2020-11-26 19:54:37,813 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50014} Result: [2]  
+ 
+ 2020-11-26 19:54:37,814 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20002, rs-50014} closed  
+ 
+ 2020-11-26 19:54:37,816 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20002} clearParameters.   
+ 
+ 2020-11-26 19:54:37,818 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} Parameters : [4]  
+ 
+ 2020-11-26 19:54:37,819 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} Types : [INTEGER]  
+ 
+ 2020-11-26 19:54:37,821 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} executed. 3.2806 millis. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 19:54:37,823 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50015} open  
+ 
+ 2020-11-26 19:54:37,824 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50015} Header: [username, avator, id, title, createtime, views, content, firstpicture, blogdescribe, id, publish, recommend]  
+ 
+ 2020-11-26 19:54:37,826 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50015} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 11, Java基本语法, 2020-11-19 16:11:12.0, 16, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容, 1, true, true]  
+ 
+ 2020-11-26 19:54:37,829 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50015} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 12, Java笔记, 2020-11-19 17:00:12.0, 10, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 这是一些有关于java基础的内容, 1, true, true]  
+ 
+ 2020-11-26 19:54:37,832 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20003, rs-50015} closed  
+ 
+ 2020-11-26 19:54:37,834 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20003} clearParameters.   
+ 
+ 2020-11-26 19:54:37,835 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:54:37,918 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-connect  
+ 
+ 2020-11-26 19:54:37,919 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} Parameters : []  
+ 
+ 2020-11-26 19:54:37,920 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} Types : []  
+ 
+ 2020-11-26 19:54:37,921 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} executed. 1.5662 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:54:37,921 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50016} open  
+ 
+ 2020-11-26 19:54:37,921 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50016} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:54:37,922 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50016} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:54:37,923 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50016} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:54:37,925 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10005, pstmt-20004, rs-50016} closed  
+ 
+ 2020-11-26 19:54:37,925 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10005, pstmt-20004} clearParameters.   
+ 
+ 2020-11-26 19:54:37,926 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} pool-recycle  
+ 
+ 2020-11-26 19:56:14,258 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10005} closed  
+ 
+ 2020-11-26 19:56:14,263 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10004} closed  
+ 
+ 2020-11-26 19:56:14,265 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10003} closed  
+ 
+ 2020-11-26 19:56:14,270 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10002} closed  
+ 
+ 2020-11-26 19:56:14,275 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10001} closed  
+ 
+ 2020-11-26 19:56:14,288 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006,procId-1292} connected  
+ 
+ 2020-11-26 19:56:14,290 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-connect  
+ 
+ 2020-11-26 19:56:14,292 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20008} created. select * from t_types  
+ 
+ 2020-11-26 19:56:14,294 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20008} Parameters : []  
+ 
+ 2020-11-26 19:56:14,295 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20008} Types : []  
+ 
+ 2020-11-26 19:56:14,298 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20008} executed. 4.1355 millis. select * from t_types  
+ 
+ 2020-11-26 19:56:14,299 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20008, rs-50017} open  
+ 
+ 2020-11-26 19:56:14,299 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20008, rs-50017} Header: [id, name]  
+ 
+ 2020-11-26 19:56:14,300 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20008, rs-50017} Result: [8, 方法论]  
+ 
+ 2020-11-26 19:56:14,301 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20008, rs-50017} Result: [9, 理论类]  
+ 
+ 2020-11-26 19:56:14,302 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20008, rs-50017} Result: [21, 错误日记]  
+ 
+ 2020-11-26 19:56:14,304 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20008, rs-50017} Result: [23, 开发日记]  
+ 
+ 2020-11-26 19:56:14,304 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20008, rs-50017} closed  
+ 
+ 2020-11-26 19:56:14,305 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20008} clearParameters.   
+ 
+ 2020-11-26 19:56:14,307 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-recycle  
+ 
+ 2020-11-26 19:56:14,309 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-connect  
+ 
+ 2020-11-26 19:56:14,310 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} created. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 19:56:14,311 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} Parameters : []  
+ 
+ 2020-11-26 19:56:14,312 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} Types : []  
+ 
+ 2020-11-26 19:56:14,313 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} executed. 2.051 millis. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 19:56:14,314 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50018} open  
+ 
+ 2020-11-26 19:56:14,314 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50018} Header: [count(0)]  
+ 
+ 2020-11-26 19:56:14,315 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50018} Result: [2]  
+ 
+ 2020-11-26 19:56:14,315 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50018} closed  
+ 
+ 2020-11-26 19:56:14,316 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} clearParameters.   
+ 
+ 2020-11-26 19:56:14,317 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} created. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 19:56:14,318 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} Parameters : [4]  
+ 
+ 2020-11-26 19:56:14,319 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} Types : [INTEGER]  
+ 
+ 2020-11-26 19:56:14,321 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} executed. 2.809 millis. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 19:56:14,322 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50019} open  
+ 
+ 2020-11-26 19:56:14,322 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50019} Header: [username, avator, id, title, createtime, views, content, firstpicture, blogdescribe, id, publish, recommend]  
+ 
+ 2020-11-26 19:56:14,323 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50019} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 11, Java基本语法, 2020-11-19 16:11:12.0, 16, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容, 1, true, true]  
+ 
+ 2020-11-26 19:56:14,325 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50019} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 12, Java笔记, 2020-11-19 17:00:12.0, 10, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 这是一些有关于java基础的内容, 1, true, true]  
+ 
+ 2020-11-26 19:56:14,328 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50019} closed  
+ 
+ 2020-11-26 19:56:14,328 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} clearParameters.   
+ 
+ 2020-11-26 19:56:14,329 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-recycle  
+ 
+ 2020-11-26 19:56:14,487 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-connect  
+ 
+ 2020-11-26 19:56:14,489 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} created. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:56:14,491 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} Parameters : []  
+ 
+ 2020-11-26 19:56:14,492 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} Types : []  
+ 
+ 2020-11-26 19:56:14,494 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} executed. 3.0607 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:56:14,495 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50020} open  
+ 
+ 2020-11-26 19:56:14,496 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50020} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:56:14,498 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50020} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:56:14,503 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50020} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:56:14,504 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50020} closed  
+ 
+ 2020-11-26 19:56:14,505 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} clearParameters.   
+ 
+ 2020-11-26 19:56:14,507 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-recycle  
+ 
+ 2020-11-26 19:56:50,079 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-connect  
+ 
+ 2020-11-26 19:56:50,081 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20012} created. select * from t_tages  
+ 
+ 2020-11-26 19:56:50,082 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20012} Parameters : []  
+ 
+ 2020-11-26 19:56:50,083 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20012} Types : []  
+ 
+ 2020-11-26 19:56:50,085 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20012} executed. 2.9742 millis. select * from t_tages  
+ 
+ 2020-11-26 19:56:50,086 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20012, rs-50021} open  
+ 
+ 2020-11-26 19:56:50,087 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20012, rs-50021} Header: [id, tage]  
+ 
+ 2020-11-26 19:56:50,088 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20012, rs-50021} Result: [1, 学习日记]  
+ 
+ 2020-11-26 19:56:50,089 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20012, rs-50021} Result: [12, 开发日记]  
+ 
+ 2020-11-26 19:56:50,090 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20012, rs-50021} Result: [13, 数据库日记]  
+ 
+ 2020-11-26 19:56:50,092 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20012, rs-50021} closed  
+ 
+ 2020-11-26 19:56:50,092 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20012} clearParameters.   
+ 
+ 2020-11-26 19:56:50,093 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-recycle  
+ 
+ 2020-11-26 19:56:50,099 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-connect  
+ 
+ 2020-11-26 19:56:50,099 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} Parameters : []  
+ 
+ 2020-11-26 19:56:50,100 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} Types : []  
+ 
+ 2020-11-26 19:56:50,101 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} executed. 1.6899 millis. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 19:56:50,102 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50022} open  
+ 
+ 2020-11-26 19:56:50,102 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50022} Header: [count(0)]  
+ 
+ 2020-11-26 19:56:50,103 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50022} Result: [2]  
+ 
+ 2020-11-26 19:56:50,104 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20009, rs-50022} closed  
+ 
+ 2020-11-26 19:56:50,105 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20009} clearParameters.   
+ 
+ 2020-11-26 19:56:50,107 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} Parameters : [4]  
+ 
+ 2020-11-26 19:56:50,107 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} Types : [INTEGER]  
+ 
+ 2020-11-26 19:56:50,109 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} executed. 2.4063 millis. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 19:56:50,110 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50023} open  
+ 
+ 2020-11-26 19:56:50,110 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50023} Header: [username, avator, id, title, createtime, views, content, firstpicture, blogdescribe, id, publish, recommend]  
+ 
+ 2020-11-26 19:56:50,111 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50023} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 11, Java基本语法, 2020-11-19 16:11:12.0, 16, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容, 1, true, true]  
+ 
+ 2020-11-26 19:56:50,112 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50023} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 12, Java笔记, 2020-11-19 17:00:12.0, 10, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 这是一些有关于java基础的内容, 1, true, true]  
+ 
+ 2020-11-26 19:56:50,114 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20010, rs-50023} closed  
+ 
+ 2020-11-26 19:56:50,114 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20010} clearParameters.   
+ 
+ 2020-11-26 19:56:50,115 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-recycle  
+ 
+ 2020-11-26 19:56:50,234 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-connect  
+ 
+ 2020-11-26 19:56:50,236 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} Parameters : []  
+ 
+ 2020-11-26 19:56:50,237 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} Types : []  
+ 
+ 2020-11-26 19:56:50,239 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} executed. 3.1148 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:56:50,240 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50024} open  
+ 
+ 2020-11-26 19:56:50,240 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50024} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:56:50,241 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50024} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:56:50,242 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50024} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:56:50,244 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50024} closed  
+ 
+ 2020-11-26 19:56:50,245 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} clearParameters.   
+ 
+ 2020-11-26 19:56:50,245 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-recycle  
+ 
+ 2020-11-26 19:57:22,957 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-connect  
+ 
+ 2020-11-26 19:57:22,958 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} Parameters : []  
+ 
+ 2020-11-26 19:57:22,958 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} Types : []  
+ 
+ 2020-11-26 19:57:22,959 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} executed. 1.4962 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:57:22,960 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50025} open  
+ 
+ 2020-11-26 19:57:22,960 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50025} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:57:22,961 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50025} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:57:22,961 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50025} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:57:22,962 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10006, pstmt-20011, rs-50025} closed  
+ 
+ 2020-11-26 19:57:22,962 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10006, pstmt-20011} clearParameters.   
+ 
+ 2020-11-26 19:57:22,963 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} pool-recycle  
+ 
+ 2020-11-26 19:58:42,185 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10006} closed  
+ 
+ 2020-11-26 19:58:42,223 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007,procId-1293} connected  
+ 
+ 2020-11-26 19:58:42,235 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:58:42,240 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20013} created. select * from t_user where username=?  
+ 
+ 2020-11-26 19:58:42,245 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20013} Parameters : [zhangsan]  
+ 
+ 2020-11-26 19:58:42,246 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20013} Types : [VARCHAR]  
+ 
+ 2020-11-26 19:58:42,252 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20013} executed. 7.7882 millis. select * from t_user where username=?  
+ 
+ 2020-11-26 19:58:42,253 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20013, rs-50026} open  
+ 
+ 2020-11-26 19:58:42,254 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20013, rs-50026} Header: [id, username, password, email, type, avator, time, updatetime]  
+ 
+ 2020-11-26 19:58:42,256 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20013, rs-50026} Result: [1, zhangsan, $2a$10$MqW9MEpSHtHfWFLp6egUmura2I/R1i40h9xN6vTy45FepVlEe6Mxy, 1799749389@qq.com, 1, https://picsum.photos/seed/picsum/200/300, 2020-11-12 04:35:11.0, 2020-11-12 04:35:11.0]  
+ 
+ 2020-11-26 19:58:42,259 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20013, rs-50026} closed  
+ 
+ 2020-11-26 19:58:42,261 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20013} clearParameters.   
+ 
+ 2020-11-26 19:58:42,262 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:58:42,565 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:58:42,566 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} created. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:58:42,567 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 19:58:42,567 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 19:58:42,569 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 2.1474 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:58:42,569 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50027} open  
+ 
+ 2020-11-26 19:58:42,570 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50027} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:58:42,571 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50027} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:58:42,573 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50027} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:58:42,574 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50027} closed  
+ 
+ 2020-11-26 19:58:42,574 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 19:58:42,575 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:58:42,714 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:58:42,716 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 19:58:42,716 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 19:58:42,718 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 2.2336 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:58:42,718 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50028} open  
+ 
+ 2020-11-26 19:58:42,719 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50028} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:58:42,719 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50028} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:58:42,721 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50028} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:58:42,723 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50028} closed  
+ 
+ 2020-11-26 19:58:42,723 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 19:58:42,724 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:07,043 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:07,044 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} created. select * from t_tages  
+ 
+ 2020-11-26 19:59:07,045 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} Parameters : []  
+ 
+ 2020-11-26 19:59:07,046 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} Types : []  
+ 
+ 2020-11-26 19:59:07,048 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} executed. 2.3504 millis. select * from t_tages  
+ 
+ 2020-11-26 19:59:07,048 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50029} open  
+ 
+ 2020-11-26 19:59:07,049 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50029} Header: [id, tage]  
+ 
+ 2020-11-26 19:59:07,049 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50029} Result: [1, 学习日记]  
+ 
+ 2020-11-26 19:59:07,050 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50029} Result: [12, 开发日记]  
+ 
+ 2020-11-26 19:59:07,051 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50029} Result: [13, 数据库日记]  
+ 
+ 2020-11-26 19:59:07,052 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50029} closed  
+ 
+ 2020-11-26 19:59:07,053 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} clearParameters.   
+ 
+ 2020-11-26 19:59:07,054 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:07,055 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:07,057 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} created. select * from t_types  
+ 
+ 2020-11-26 19:59:07,058 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} Parameters : []  
+ 
+ 2020-11-26 19:59:07,060 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} Types : []  
+ 
+ 2020-11-26 19:59:07,062 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} executed. 3.3384 millis. select * from t_types  
+ 
+ 2020-11-26 19:59:07,063 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50030} open  
+ 
+ 2020-11-26 19:59:07,063 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50030} Header: [id, name]  
+ 
+ 2020-11-26 19:59:07,064 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50030} Result: [8, 方法论]  
+ 
+ 2020-11-26 19:59:07,065 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50030} Result: [9, 理论类]  
+ 
+ 2020-11-26 19:59:07,065 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50030} Result: [21, 错误日记]  
+ 
+ 2020-11-26 19:59:07,066 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50030} Result: [23, 开发日记]  
+ 
+ 2020-11-26 19:59:07,067 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50030} closed  
+ 
+ 2020-11-26 19:59:07,068 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} clearParameters.   
+ 
+ 2020-11-26 19:59:07,068 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:07,298 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:07,299 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 19:59:07,300 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 19:59:07,302 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 2.5416 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:59:07,303 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50031} open  
+ 
+ 2020-11-26 19:59:07,303 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50031} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:59:07,304 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50031} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:59:07,306 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50031} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:59:07,308 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50031} closed  
+ 
+ 2020-11-26 19:59:07,308 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 19:59:07,309 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:39,110 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:39,117 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20017} created. SELECT DATE_FORMAT(b.updatetime,'%Y') as year FROM t_blog b GROUP BY year ORDER BY year DESC  
+ 
+ 2020-11-26 19:59:39,118 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20017} Parameters : []  
+ 
+ 2020-11-26 19:59:39,118 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20017} Types : []  
+ 
+ 2020-11-26 19:59:39,125 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20017} executed. 7.1387 millis. SELECT DATE_FORMAT(b.updatetime,'%Y') as year FROM t_blog b GROUP BY year ORDER BY year DESC  
+ 
+ 2020-11-26 19:59:39,125 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20017, rs-50032} open  
+ 
+ 2020-11-26 19:59:39,126 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20017, rs-50032} Header: [year]  
+ 
+ 2020-11-26 19:59:39,126 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20017, rs-50032} Result: [2020]  
+ 
+ 2020-11-26 19:59:39,127 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20017, rs-50032} closed  
+ 
+ 2020-11-26 19:59:39,128 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20017} clearParameters.   
+ 
+ 2020-11-26 19:59:39,128 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:39,129 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:39,130 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20018} created. select b.id,b.title,b.updatetime,b.flag from t_blog b where DATE_FORMAT(b.updatetime,'%Y')=?;  
+ 
+ 2020-11-26 19:59:39,132 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20018} Parameters : [2020]  
+ 
+ 2020-11-26 19:59:39,132 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20018} Types : [VARCHAR]  
+ 
+ 2020-11-26 19:59:39,135 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20018} executed. 2.3511 millis. select b.id,b.title,b.updatetime,b.flag from t_blog b where DATE_FORMAT(b.updatetime,'%Y')=?;  
+ 
+ 2020-11-26 19:59:39,135 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20018, rs-50033} open  
+ 
+ 2020-11-26 19:59:39,135 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20018, rs-50033} Header: [id, title, updatetime, flag]  
+ 
+ 2020-11-26 19:59:39,135 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20018, rs-50033} Result: [11, Java基本语法, 2020-11-20 03:31:52.0, 原创]  
+ 
+ 2020-11-26 19:59:39,136 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20018, rs-50033} Result: [12, Java笔记, 2020-11-20 04:47:35.0, 原创]  
+ 
+ 2020-11-26 19:59:39,137 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20018, rs-50033} closed  
+ 
+ 2020-11-26 19:59:39,137 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20018} clearParameters.   
+ 
+ 2020-11-26 19:59:39,138 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:39,251 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:39,252 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 19:59:39,252 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 19:59:39,254 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 1.9431 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:59:39,254 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50034} open  
+ 
+ 2020-11-26 19:59:39,255 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50034} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:59:39,255 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50034} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:59:39,257 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50034} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:59:39,258 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50034} closed  
+ 
+ 2020-11-26 19:59:39,259 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 19:59:39,259 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:53,275 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:53,278 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20019} created. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id AND us.id = ?  
+ 
+ 2020-11-26 19:59:53,279 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20019} Parameters : [1]  
+ 
+ 2020-11-26 19:59:53,280 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20019} Types : [INTEGER]  
+ 
+ 2020-11-26 19:59:53,283 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20019} executed. 3.2241 millis. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id AND us.id = ?  
+ 
+ 2020-11-26 19:59:53,284 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20019, rs-50035} open  
+ 
+ 2020-11-26 19:59:53,284 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20019, rs-50035} Header: [count(0)]  
+ 
+ 2020-11-26 19:59:53,285 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20019, rs-50035} Result: [2]  
+ 
+ 2020-11-26 19:59:53,286 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20019, rs-50035} closed  
+ 
+ 2020-11-26 19:59:53,287 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20019} clearParameters.   
+ 
+ 2020-11-26 19:59:53,289 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20020} created. select us.username uname, tb.id,tb.title ,tb.createtime,us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id
+         and 
+        us.id=? LIMIT ?   
+ 
+ 2020-11-26 19:59:53,290 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20020} Parameters : [1, 5]  
+ 
+ 2020-11-26 19:59:53,291 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20020} Types : [INTEGER, INTEGER]  
+ 
+ 2020-11-26 19:59:53,292 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20020} executed. 1.5071 millis. select us.username uname, tb.id,tb.title ,tb.createtime,us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id
+         and 
+        us.id=? LIMIT ?   
+ 
+ 2020-11-26 19:59:53,293 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20020, rs-50036} open  
+ 
+ 2020-11-26 19:59:53,293 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20020, rs-50036} Header: [username, id, title, createtime, id, publish, recommend]  
+ 
+ 2020-11-26 19:59:53,294 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20020, rs-50036} Result: [zhangsan, 11, Java基本语法, 2020-11-19 16:11:12.0, 1, true, true]  
+ 
+ 2020-11-26 19:59:53,295 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20020, rs-50036} Result: [zhangsan, 12, Java笔记, 2020-11-19 17:00:12.0, 1, true, true]  
+ 
+ 2020-11-26 19:59:53,296 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20020, rs-50036} closed  
+ 
+ 2020-11-26 19:59:53,297 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20020} clearParameters.   
+ 
+ 2020-11-26 19:59:53,297 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 19:59:53,460 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 19:59:53,460 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 19:59:53,460 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 19:59:53,462 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 1.5659 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 19:59:53,462 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50037} open  
+ 
+ 2020-11-26 19:59:53,463 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50037} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 19:59:53,463 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50037} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 19:59:53,465 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50037} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 19:59:53,467 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50037} closed  
+ 
+ 2020-11-26 19:59:53,468 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 19:59:53,468 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:06,910 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:06,913 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20021} created. SELECT count(0) FROM t_types  
+ 
+ 2020-11-26 20:00:06,914 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20021} Parameters : []  
+ 
+ 2020-11-26 20:00:06,915 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20021} Types : []  
+ 
+ 2020-11-26 20:00:06,923 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20021} executed. 9.2698 millis. SELECT count(0) FROM t_types  
+ 
+ 2020-11-26 20:00:06,924 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20021, rs-50038} open  
+ 
+ 2020-11-26 20:00:06,925 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20021, rs-50038} Header: [count(0)]  
+ 
+ 2020-11-26 20:00:06,926 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20021, rs-50038} Result: [4]  
+ 
+ 2020-11-26 20:00:06,926 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20021, rs-50038} closed  
+ 
+ 2020-11-26 20:00:06,927 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20021} clearParameters.   
+ 
+ 2020-11-26 20:00:06,929 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20022} created. select * from t_types LIMIT ?   
+ 
+ 2020-11-26 20:00:06,930 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20022} Parameters : [5]  
+ 
+ 2020-11-26 20:00:06,931 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20022} Types : [INTEGER]  
+ 
+ 2020-11-26 20:00:06,933 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20022} executed. 2.462 millis. select * from t_types LIMIT ?   
+ 
+ 2020-11-26 20:00:06,934 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20022, rs-50039} open  
+ 
+ 2020-11-26 20:00:06,934 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20022, rs-50039} Header: [id, name]  
+ 
+ 2020-11-26 20:00:06,935 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20022, rs-50039} Result: [8, 方法论]  
+ 
+ 2020-11-26 20:00:06,936 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20022, rs-50039} Result: [9, 理论类]  
+ 
+ 2020-11-26 20:00:06,937 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20022, rs-50039} Result: [21, 错误日记]  
+ 
+ 2020-11-26 20:00:06,938 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20022, rs-50039} Result: [23, 开发日记]  
+ 
+ 2020-11-26 20:00:06,938 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20022, rs-50039} closed  
+ 
+ 2020-11-26 20:00:06,939 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20022} clearParameters.   
+ 
+ 2020-11-26 20:00:06,939 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:07,070 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:07,070 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 20:00:07,071 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 20:00:07,072 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 1.5885 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 20:00:07,072 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50040} open  
+ 
+ 2020-11-26 20:00:07,073 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50040} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 20:00:07,073 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50040} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 20:00:07,074 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50040} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 20:00:07,075 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50040} closed  
+ 
+ 2020-11-26 20:00:07,077 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 20:00:07,077 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:20,586 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:20,588 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20023} created. SELECT count(0) FROM t_tages  
+ 
+ 2020-11-26 20:00:20,589 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20023} Parameters : []  
+ 
+ 2020-11-26 20:00:20,589 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20023} Types : []  
+ 
+ 2020-11-26 20:00:20,591 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20023} executed. 2.3964 millis. SELECT count(0) FROM t_tages  
+ 
+ 2020-11-26 20:00:20,592 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20023, rs-50041} open  
+ 
+ 2020-11-26 20:00:20,592 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20023, rs-50041} Header: [count(0)]  
+ 
+ 2020-11-26 20:00:20,593 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20023, rs-50041} Result: [3]  
+ 
+ 2020-11-26 20:00:20,594 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20023, rs-50041} closed  
+ 
+ 2020-11-26 20:00:20,594 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20023} clearParameters.   
+ 
+ 2020-11-26 20:00:20,596 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20024} created. select * from t_tages LIMIT ?   
+ 
+ 2020-11-26 20:00:20,597 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20024} Parameters : [5]  
+ 
+ 2020-11-26 20:00:20,597 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20024} Types : [INTEGER]  
+ 
+ 2020-11-26 20:00:20,598 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20024} executed. 1.3046 millis. select * from t_tages LIMIT ?   
+ 
+ 2020-11-26 20:00:20,598 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20024, rs-50042} open  
+ 
+ 2020-11-26 20:00:20,599 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20024, rs-50042} Header: [id, tage]  
+ 
+ 2020-11-26 20:00:20,599 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20024, rs-50042} Result: [1, 学习日记]  
+ 
+ 2020-11-26 20:00:20,600 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20024, rs-50042} Result: [12, 开发日记]  
+ 
+ 2020-11-26 20:00:20,601 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20024, rs-50042} Result: [13, 数据库日记]  
+ 
+ 2020-11-26 20:00:20,602 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20024, rs-50042} closed  
+ 
+ 2020-11-26 20:00:20,602 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20024} clearParameters.   
+ 
+ 2020-11-26 20:00:20,602 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:20,728 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:20,729 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 20:00:20,729 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 20:00:20,731 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 1.7235 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 20:00:20,731 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50043} open  
+ 
+ 2020-11-26 20:00:20,731 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50043} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 20:00:20,732 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50043} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 20:00:20,734 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50043} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 20:00:20,736 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50043} closed  
+ 
+ 2020-11-26 20:00:20,737 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 20:00:20,738 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:42,749 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:42,750 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} Parameters : []  
+ 
+ 2020-11-26 20:00:42,751 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} Types : []  
+ 
+ 2020-11-26 20:00:42,753 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} executed. 2.291 millis. select * from t_types  
+ 
+ 2020-11-26 20:00:42,753 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50044} open  
+ 
+ 2020-11-26 20:00:42,754 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50044} Header: [id, name]  
+ 
+ 2020-11-26 20:00:42,755 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50044} Result: [8, 方法论]  
+ 
+ 2020-11-26 20:00:42,756 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50044} Result: [9, 理论类]  
+ 
+ 2020-11-26 20:00:42,757 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50044} Result: [21, 错误日记]  
+ 
+ 2020-11-26 20:00:42,758 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50044} Result: [23, 开发日记]  
+ 
+ 2020-11-26 20:00:42,759 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20016, rs-50044} closed  
+ 
+ 2020-11-26 20:00:42,760 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20016} clearParameters.   
+ 
+ 2020-11-26 20:00:42,761 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:42,762 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:42,763 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} Parameters : []  
+ 
+ 2020-11-26 20:00:42,763 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} Types : []  
+ 
+ 2020-11-26 20:00:42,765 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} executed. 2.061 millis. select * from t_tages  
+ 
+ 2020-11-26 20:00:42,766 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50045} open  
+ 
+ 2020-11-26 20:00:42,766 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50045} Header: [id, tage]  
+ 
+ 2020-11-26 20:00:42,767 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50045} Result: [1, 学习日记]  
+ 
+ 2020-11-26 20:00:42,767 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50045} Result: [12, 开发日记]  
+ 
+ 2020-11-26 20:00:42,768 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50045} Result: [13, 数据库日记]  
+ 
+ 2020-11-26 20:00:42,769 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20015, rs-50045} closed  
+ 
+ 2020-11-26 20:00:42,769 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20015} clearParameters.   
+ 
+ 2020-11-26 20:00:42,770 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:42,772 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:42,773 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20025} created. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 20:00:42,774 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20025} Parameters : []  
+ 
+ 2020-11-26 20:00:42,775 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20025} Types : []  
+ 
+ 2020-11-26 20:00:42,777 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20025} executed. 2.1473 millis. SELECT count(0) FROM t_blog tb, t_user_blog tub, t_user us WHERE tb.id = tub.bid AND tub.uid = us.id  
+ 
+ 2020-11-26 20:00:42,777 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20025, rs-50046} open  
+ 
+ 2020-11-26 20:00:42,778 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20025, rs-50046} Header: [count(0)]  
+ 
+ 2020-11-26 20:00:42,778 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20025, rs-50046} Result: [2]  
+ 
+ 2020-11-26 20:00:42,779 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20025, rs-50046} closed  
+ 
+ 2020-11-26 20:00:42,780 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20025} clearParameters.   
+ 
+ 2020-11-26 20:00:42,781 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20026} created. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 20:00:42,782 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20026} Parameters : [4]  
+ 
+ 2020-11-26 20:00:42,783 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20026} Types : [INTEGER]  
+ 
+ 2020-11-26 20:00:42,785 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20026} executed. 2.402 millis. select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id LIMIT ?   
+ 
+ 2020-11-26 20:00:42,785 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20026, rs-50047} open  
+ 
+ 2020-11-26 20:00:42,786 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20026, rs-50047} Header: [username, avator, id, title, createtime, views, content, firstpicture, blogdescribe, id, publish, recommend]  
+ 
+ 2020-11-26 20:00:42,786 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20026, rs-50047} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 11, Java基本语法, 2020-11-19 16:11:12.0, 16, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容, 1, true, true]  
+ 
+ 2020-11-26 20:00:42,788 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20026, rs-50047} Result: [zhangsan, https://picsum.photos/seed/picsum/200/300, 12, Java笔记, 2020-11-19 17:00:12.0, 10, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 这是一些有关于java基础的内容, 1, true, true]  
+ 
+ 2020-11-26 20:00:42,791 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20026, rs-50047} closed  
+ 
+ 2020-11-26 20:00:42,792 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20026} clearParameters.   
+ 
+ 2020-11-26 20:00:42,792 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 
+ 2020-11-26 20:00:42,921 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-connect  
+ 
+ 2020-11-26 20:00:42,921 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Parameters : []  
+ 
+ 2020-11-26 20:00:42,922 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} Types : []  
+ 
+ 2020-11-26 20:00:42,923 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} executed. 1.7983 millis. SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3  
+ 
+ 2020-11-26 20:00:42,923 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50048} open  
+ 
+ 2020-11-26 20:00:42,924 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50048} Header: [id, title, content, firstpicture, flag, views, appreciation, opencomment, sharestatment, publish, recommend, createtime, updatetime, blogdescribe]  
+ 
+ 2020-11-26 20:00:42,924 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50048} Result: [12, Java笔记, 
+* 数据类型的从小到大顺序
+	````java
+	（byte，short，char)-int-long-float-double
+	````
+* 基本类型：
+````java
+	public class shuju{
+	public static void main(String[] args){
+	double num1=2F;//自动转换数据类型，数据范围小的转换为数据大的
+	System.out.println(num1);
+	int num2=(int)100L;//强制转换数据类型。数据大的转换为数据小的
+````
+* 三元运算：需要三个数据才可以进行运算的运算符；
+````java
+	格式： 数据类型 变量名称=条件判断 ？表达式A ：表达式B
+	注意，俩边的数据类型一点要一样的。
+````
+* 参数传递的过程中，有俩项规则
+ >  1.对于基本数据类型（以及String）来说，形式参数的操作不会影响实际参数；
+>  2.对于引用数据类型（除了String）来说，形式参数的操作会影响实际参数；
+
+* 对于基本类型是比较内容是否相等，但对于引用数据类型就是比较地址，像什么String啊。
+
+
+* 基本类型 对应的  包装类型
+
+
+
+	| 基本类型 | 包装类型|
+	| :----:| :----:|
+	| int | Integer|
+	| byte | Byte |
+	| short | Short |
+	| float | Float |
+	| double | Double |
+	| char | Char |
+	| boolean | Boolean |
+	| long | Long |, https://picsum.photos/seed/picsum/800/450, 原创, 10, true, true, true, true, true, 2020-11-19 17:00:12.0, 2020-11-20 04:47:35.0, 这是一些有关于java基础的内容]  
+ 
+ 2020-11-26 20:00:42,925 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50048} Result: [11, Java基本语法, ## 基本语法
+##### 编写 Java 程序时，应注意以下几点：
+
+* 大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。
+* 类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组 成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+* 方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。
+* 源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+* 主方法入口：所有的 Java 程序由 public static void main(String[] args) 方法开始执行。
+
+ ```java
+ public static void main(String[] args){};
+ ```, https://picsum.photos/seed/picsum/800/450, 原创, 16, true, true, true, true, true, 2020-11-19 16:11:12.0, 2020-11-20 03:31:52.0, 这是有关于Java语法的基本使用，请着重查看代码块里面的内容]  
+ 
+ 2020-11-26 20:00:42,926 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142)] {conn-10007, pstmt-20014, rs-50048} closed  
+ 
+ 2020-11-26 20:00:42,926 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137)] {conn-10007, pstmt-20014} clearParameters.   
+ 
+ 2020-11-26 20:00:42,927 DEBUG [com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132)] {conn-10007} pool-recycle  
+ 

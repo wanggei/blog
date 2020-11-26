@@ -1,0 +1,146 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.blog.dao.BlogDao">
+    <select id="getAllById" resultMap="getAllBlog">
+        select us.username uname, tb.id,tb.title ,tb.createtime,us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id
+         and 
+        us.id=#{id}
+    </select>
+
+    <select id="getBlogByTitle" resultType="com.example.blog.model.Blog">
+        select id from t_blog where title=#{title}
+    </select>
+
+    <select id="getSearchByTitle" resultMap="getAllBlog">
+        select us.username uname,tb.id,tb.title ,tb.createtime ,us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+          where
+        tb.id=tub.bid and tub.uid=us.id
+            and
+        title like concat('%',#{title},'%')
+    </select>
+    
+    <select id="getOne" resultMap="getOneBlog">
+        select tb.id,tb.title,tb.content,tb.firstpicture,tb.appreciation,tb.opencomment,tb.sharestatment,tb.recommend ,tb.views,tb.flag,
+            tage.id tageid,tage.tage tagename,types.id typeid ,types.name typename
+         from
+            t_blog tb,t_blog_tages tbt,t_tages tage,t_blog_type tbty,t_types types
+        where
+            tbt.bid=tb.id and tbty.bid=tb.id and tbt.tid=tage.id and tbty.tyid=types.id
+        and tb.id=#{id}
+    </select>
+
+    <select id="getAll" resultMap="getAllBlog">
+         select us.username uname, us.avator avgtor,tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture, tb.blogdescribe, us.id uid,tb.publish,tb.recommend
+          from
+        t_blog tb,t_user_blog tub,t_user us
+         where
+        tb.id=tub.bid and tub.uid=us.id
+    </select>
+
+    <select id="getOneById" resultMap="getAllBlog">
+         select us.username uname,us.avator avgtor, tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture,tb.blogdescribe, us.id uid,tb.publish,tb.recommend,tb.flag,
+         typ.name tname,typ.id typid
+          from
+        t_blog tb,t_user_blog tub,t_user us,t_types typ,t_blog_type tbt
+         where
+        tb.id=tub.bid and tub.uid=us.id and tbt.bid=tb.id and tbt.tyid=typ.id
+        and tb.id=#{id}
+    </select>
+
+    <select id="getYear" resultType="java.lang.String">
+        SELECT DATE_FORMAT(b.updatetime,'%Y') as year FROM t_blog b GROUP BY year ORDER BY year DESC
+    </select>
+
+    <select id="getByYear" resultType="com.example.blog.model.Blog">
+        select b.id,b.title,b.updatetime,b.flag from t_blog b where DATE_FORMAT(b.updatetime,'%Y')=#{year};
+    </select>
+
+    <select id="getBycreatimeDesc" resultType="com.example.blog.model.Blog">
+        SELECT * FROM t_blog ORDER BY createtime DESC LIMIT 0,3
+    </select>
+
+    <select id="getByTage" resultMap="getAllBlog">
+        select us.username uname,us.avator avgtor, tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture,tb.blogdescribe, us.id uid,tb.publish,tb.recommend,tb.flag
+          from
+        t_blog tb,t_user_blog tub,t_user us,t_blog_tages tbt,t_tages tages
+         where
+        tb.id=tub.bid and tub.uid=us.id and tages.id=tbt.tid and tb.id=tbt.bid
+            and
+            tages.tage=#{tagename}
+    </select>
+
+    <select id="getByType" resultMap="getAllBlog">
+        select us.username uname,us.avator avgtor, tb.id,tb.title ,tb.createtime,tb.views,tb.content,tb.firstpicture,tb.blogdescribe, us.id uid,tb.publish,tb.recommend,tb.flag
+          from
+        t_blog tb,t_user_blog tub,t_user us,t_types typ,t_blog_type tbt
+         where
+        tb.id=tub.bid and tub.uid=us.id and tbt.bid=tb.id and tbt.tyid=typ.id
+          and
+        typ.name=#{typename}
+
+    </select>
+
+    <update id="updateViews">
+        update t_blog
+            <set>
+                views =views +1
+            </set>
+        where id=#{id}
+    </update>
+
+    <resultMap id="getAllBlog" type="com.example.blog.model.Blog">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="firstpicture" property="firstpicture"/>
+        <result column="flag" property="flag"/>
+        <result column="views" property="views"/>
+        <result column="createtime" property="createtime"/>
+        <result column="appreciation" property="appreciation"/>
+        <result column="blogdescribe" property="blogdescribe"/>
+        <result column="Opencomment" property="Opencomment"/>
+        <result column="sharestatment" property="sharestatment"/>
+        <result column="publish" property="publish"/>
+        <result column="recommend" property="recommend"/>
+        <association property="users" javaType="com.example.blog.model.User">
+            <id column="uid" property="id"/>
+            <result column="uname" property="username"/>
+            <result column="avgtor" property="avator"/>
+        </association>
+        <association property="types" javaType="com.example.blog.model.Types">
+            <id column="typid" property="id"/>
+            <result column="tname" property="name"/>
+        </association>
+    </resultMap>
+
+    <resultMap id="getOneBlog" type="com.example.blog.model.Blog">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="firstpicture" property="firstpicture"/>
+        <result column="flag" property="flag"/>
+        <result column="views" property="views"/>
+        <result column="appreciation" property="appreciation"/>
+        <result column="Opencomment" property="Opencomment"/>
+        <result column="sharestatment" property="sharestatment"/>
+        <result column="publish" property="publish"/>
+        <result column="createtime" property="createtime"/>
+        <result column="recommend" property="recommend"/>
+        <association property="types" javaType="com.example.blog.model.Types">
+            <id column="typeid" property="id"/>
+            <result column="typename" property="name"/>
+        </association>
+        <collection property="tages" ofType="com.example.blog.model.Tages">
+            <id column="tageid" property="id"/>
+            <result column="tagename" property="tage"/>
+        </collection>
+    </resultMap>
+</mapper>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="admin/_fragment :: hader(~{::title})">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>更新分类</title>
+		<link type="text/css" href="../../static/css/semantic.min.css" rel="stylesheet"/>
+		<link type="text/css" href="../../static/css/index.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../../static/enty/css/editormd.min.css" />
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css'>
+	</head>
+	<body>
+		<nav class="ui inverted attached segment my-padded-tb-mini" th:replace="admin/_fragment :: nav(5)">
+		    <div class="ui container">
+		        <div class="ui inverted secondary stackable menu">
+		            <h2 class="ui teal header item">Blog</h2>		           
+		            <a href="#" class="item m-model-hide m-item"><i class="idea icon"></i>分类</a>
+		            <a href="#" class="item m-model-hide m-item "><i class="tags icon"></i>标签</a>
+		            <a href="#" class="item m-model-hide m-item"><i class="info icon"></i>关于我</a>
+		            <div class="right menu">
+		                <div class="ui dropdown item">
+							<div class="text">
+								<img src="https://picsum.photos/seed/picsum/200/300" style="width: 30px; height: 50px;"  class="ui avatar image"/>
+								隔壁你家老王
+							</div>
+							<i class="dropdown icon"></i>
+							<div class="ui menu">
+								<a href="#" class="item">注销</a>
+							</div>
+						</div>
+		            </div>
+		        </div>
+		    </div>
+			<a href="#" class="ui black icon button m-margin-top">
+				<i class="sidebar icon"></i>
+			</a>
+		</nav>
+		<div class="m-contain-max">
+			<div class="ui container">
+				<form action="#" method="post" class="ui form" id="updateFrom" th:action="@{/admin/UpdateTageSubmit}">
+					<div class="field">
+						<div class="ui left labeled input">
+							  <div class="ui dropdown teal basic label">
+							    <div class="text">名称</div>
+							  </div>
+							   <input type="text" name="name" placeholder="标签名" th:value="${tage.tage}">
+						</div>
+
+					</div>
+					<div class="field">
+						<input type="hidden" name="id"  th:value="${tage.id}">
+					</div>
+					<div class="ui error message"></div>
+				</form>
+						</div>
+					</div>
+					<div class="ui right aligned container m-margin-max-thin">
+						<button type="button" class="ui teal button" onclick="updateSubmit()">更新</button>
+					</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<footer class="ui inverted vertical segment my-padded-massive" th:replace="admin/_fragment :: footer">
+			 <div class="ui center aligned container">
+			        <div class="ui inverted divided grid stackable">
+			            <div class="three wide column">
+			                <div class="ui inverted link list">
+			                    <div class="item">
+									<img src="image/weixin.jpg" class="ui rounded bordered image" style="width: 120px;" th:src="@{/image/weixin.jsp}">
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="three wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">最新博客</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                </div>
+			            </div>
+			            <div class="four wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">联系我</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">Email：1799749389@qq.com</a>
+			                    <a href="#" class="item">QQ：1799749389</a>
+			                   
+			                </div>
+			            </div>
+			            <div class="six wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">My Blue</h4>
+			                <p class="my-opacity-mini my-text-lined">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+			            </div>
+			        </div>
+			        <div class="ui inverted section divider "></div>
+			        <p class="my-text-thin my-text-spaced my-text-lined my-opacity-mini">Copyright &copy; 2020 skg-xsn Designed by skg-xsn</p>
+			    </div>
+		</footer>
+
+
+		<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+		<script type="text/javascript" src="js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+		<script type="text/javascript" src="../../static/enty/editormd.amd.min.js" th:src="@{/enty/editormd.amd.min.js}"></script>
+		<script>
+			$('.m-margin-top').click(function(){
+				$('.m-item').toggleClass('m-model-hide')
+			});
+			$('.ui.dropdown').dropdown({
+				on:'hover'
+			});
+			function updateSubmit() {
+				$("#updateFrom").submit();
+			}
+			$('.ui.form').form({
+				fields: {
+					name: {
+						identifier: 'name',
+						rules: [
+							{
+								type   : 'empty',
+								prompt : '请更新内容！！'
+							}
+						]
+					}
+				}
+			});
+			$('#latestblog').load('/admin/newblogList');
+		</script>
+	</body>
+</html>

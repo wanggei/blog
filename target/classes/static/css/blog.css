@@ -1,0 +1,20 @@
+.m-margin-top-blog{
+	padding-top: 5em !important;
+	padding-bottom: 5em !important;
+}
+.m-blog-margin{
+	margin-top: 3em !important;
+	margin-bottom: 3em !important;
+}
+.m-content-size{
+	font-weight: bolder;
+}
+
+@media screen and (max-width:768px) {
+	.m-fiele-wide{
+		width: 100% !important;
+	}
+	.m-field-magin{
+		margin-bottom: 0.5em !important;
+	}
+}

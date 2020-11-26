@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="admin/_fragment ::hader(~{::title})">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>博客关于我页</title>
+		<link type="text/css" href="../static/css/semantic.min.css" rel="stylesheet"/>
+		<link type="text/css" href="../static/css/index.css" rel="stylesheet" />
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css'>
+	</head>
+	<body>
+		<nav class="ui inverted attached segment my-padded-tb-mini" th:replace="_fragment ::nav(4)">
+		    <div class="ui container">
+		        <div class="ui inverted secondary stackable menu">
+		            <h2 class="ui teal header item">Blog</h2>
+		            <a href="#" class="item m-model-hide m-item"><i class="home icon"></i>首页</a>
+		            <a href="#" class="item m-model-hide m-item"><i class="idea icon"></i>分类</a>
+		            <a href="#" class="item m-model-hide m-item "><i class="tags icon"></i>标签</a>
+		            <a href="#" class="item m-model-hide m-item active"><i class="info icon"></i>关于我</a>
+		            <div class="right item m-model-hide m-item">
+		                <div class="ui icon inverted transparent input">
+		                    <input type="text" placeholder="Search...">
+		                    <i class="search link icon"></i>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+			<a href="#" class="ui black icon button m-margin-top">
+				<i class="sidebar icon"></i>
+			</a>
+		</nav>
+		
+		<div class="m-margin-max">
+			<div class=" ui container">
+				<div class="ui stackable grid">
+					<div class="eleven wide column">
+						<div class=" ui segment">
+							<img src="https://picsum.photos/seed/picsum/800/500" alt="" class="ui rounded image">
+						</div>
+					</div>
+					<div class="five wide column">
+						
+						<div class="ui attached segment">
+							<div class="ui header">关于我</div>
+						</div>
+						<div class="ui attached segment">
+							<p class="my-text-thin">我是一名热爱编程的cool boy,喜欢去探索一些未知的事物</p>
+						</div>
+						<div class="ui attached segment">
+							<div class="ui teal basic left pointing label m-margin-thin">Java</div>
+							<div class="ui teal basic left pointing label m-margin-thin">JavaScript</div>
+							<div class="ui teal basic left pointing label m-margin-thin">SpringCloud</div>
+							<div class="ui teal basic left pointing label m-margin-thin">Spring</div>
+							<div class="ui teal basic left pointing label m-margin-thin">MYSQL</div>
+							<div class="ui teal basic left pointing label m-margin-thin">Redis</div>
+						</div>
+						<div class="ui attached segment">
+							<div class="ui orange basic left pointing label m-margin-thin">打游戏</div>
+							<div class="ui orange basic left pointing label m-margin-thin">看电影</div>
+							<div class="ui orange basic left pointing label m-margin-thin">学习</div>
+							<div class="ui orange basic left pointing label m-margin-thin">编程</div>
+						</div>
+						<div class="ui attached segment">
+							<a href="#" target="_blank" class="ui circular icon botton"><i class="github icon"></i></a>
+							<a href="#" target="_blank" class="ui circular icon botton wechat"><i class="weixin icon"></i></a>
+							<a href="#" target="_blank" class="ui circular icon botton qq" data-content='1799749389' data-position="bottom center"><i class="qq icon"></i></a>
+						</div>
+						<div class="ui flowing popup  transition hidden payName">
+								<div class="ui orange basic label">
+									<div class="ui images" >
+										<div class="image">
+											<img src="/image/weixin.jpg" class="ui rounded bordered image" style="width: 100px;" >
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="ui inverted vertical segment my-padded-massive" th:replace="_fragment :: footer">
+			 <div class="ui center aligned container">
+			        <div class="ui inverted divided grid stackable">
+			            <div class="three wide column">
+			                <div class="ui inverted link list">
+			                    <div class="item">
+			                        <img src="../static/image/weixin.jpg" class="ui rounded image" alt="" style="width: 110px">
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="three wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">最新博客</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                </div>
+			            </div>
+			            <div class="four wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">联系我</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">Email：1799749389@qq.com</a>
+			                    <a href="#" class="item">QQ：1799749389</a>
+			                   
+			                </div>
+			            </div>
+			            <div class="six wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">My Blue</h4>
+			                <p class="my-opacity-mini my-text-lined">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+			            </div>
+			        </div>
+			        <div class="ui inverted section divider "></div>
+			        <p class="my-text-thin my-text-spaced my-text-lined my-opacity-mini">Copyright &copy; 2020 skg-xsn Designed by skg-xsn</p>
+			    </div>
+		</footer>
+		<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+		<script type="text/javascript" src="../static/js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+		<script>
+			$('.m-margin-top').click(function(){
+				$('.m-item').toggleClass('m-model-hide')
+			})
+			$('.qq').popup({
+			});
+			$('.wechat').popup({
+				popup:$('.payName'),
+				on:'hover',
+				position:'bottom center'
+			});
+			$('#latestblog').load('/newblogList');
+		</script>
+	</body>
+</html>

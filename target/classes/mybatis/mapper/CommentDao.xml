@@ -1,0 +1,19 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.blog.dao.CommentDao">
+
+    <select id="getAllList" resultType="com.example.blog.model.Comment">
+        select * from t_comment where parentcomment_id  is null and blog_id=#{bid}  ORDER BY creatTime desc
+    </select>
+
+    <select id="getone" resultType="com.example.blog.model.Comment">
+        select * from t_comment where id=#{id}
+    </select>
+    <select id="getoneByparentId" resultType="com.example.blog.model.Comment">
+        select * from t_comment where parentcomment_id=#{id}
+    </select>
+
+
+</mapper>

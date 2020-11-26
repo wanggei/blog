@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head >
+		<meta charset="utf-8" th:replace="admin/_fragment :: hader(~{::title})">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>博客管理</title>
+		<link type="text/css" href="css/semantic.min.css"  rel="stylesheet"/>
+		<link type="text/css" href="./css/index.css" rel="stylesheet" />
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+	</head>
+	<body>
+		<nav class="ui inverted attached segment my-padded-tb-mini" th:replace="admin/_fragment :: nav(4)">
+		    <div class="ui container">
+		        <div class="ui inverted secondary stackable menu">
+		            <h2 class="ui teal header item">Blog</h2>
+		            <a href="#" class="item m-model-hide m-item"><i class="idea icon"></i>分类</a>
+		            <a href="#" class="item m-model-hide m-item "><i class="tags icon"></i>标签</a>
+		            <a href="#" class="item m-model-hide m-item"><i class="info icon"></i>关于我</a>
+		            <div class="right menu">
+		                <div class="ui dropdown item">
+							<div class="text">
+								<img src="https://picsum.photos/seed/picsum/200/300" style="width: 30px; height: 50px;"  class="ui avatar image"/>
+								隔壁你家老王
+							</div>
+							<i class="dropdown icon"></i>
+							<div class="ui menu">
+								<a href="#" class="item">注销</a>
+							</div>
+						</div>
+		            </div>
+		        </div>
+		    </div>
+			<a href="#" class="ui black icon button m-margin-top">
+				<i class="sidebar icon"></i>
+			</a>
+		</nav>
+<!--		<div class="ui success message" th:unless="${#strings.isEmpty(message)}">-->
+<!--			<i class="close icon"></i>-->
+<!--			<div class="header">提示:</div>-->
+<!--			<p>恭喜,操作成功</p>-->
+<!--		</div>-->
+		<div class="ui attached pointing menu">
+			<div class="ui container">
+				<div class=" right menu">
+					<a href="#" class="item">分类</a>
+					<a href="#" class="item teal active">列表</a>
+				</div>
+			</div>
+		</div>
+		<div class="m-contain-max my-padded-left-right ">
+			<div class="ui container ">
+				<form action="#" method="post" class="ui form segment"  id="form" th:action="@{/admin/searchBlog}">
+					<div class="inline fields">
+						<div class="field">
+							<input type="text" placeholder="标题" name="title" />
+						</div>
+
+						<div class="field">
+							<div class="ui checkbox">
+								<input type="checkbox" name="remember" id="rememeber"  />
+								<label for="rememeber">推荐</label>
+							</div>
+						</div>
+						<div class="field">
+							<button class="ui basic teal mini button" id="searchSubmit"><i class="search icon"></i>搜索</button>
+						</div>
+					</div>
+				</form>
+					<table  class="ui table celled compact">
+						<thead>
+							<tr style="text-align: center">
+								<th>id</th>
+								<th>博客名称</th>
+								<th>作者</th>
+<!--								<th>发布时间</th>-->
+								<th>是否发布</th>
+								<th>是否推荐</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr th:each="blogOne : ${blogPage.list}" style="text-align: center">
+								<td th:text="${blogOne.id}">Mysql的基本操作</td>
+								<td th:text="${blogOne.title}">方法论</td>
+								<td th:text="${blogOne.users.username}">隔壁你家老王</td>
+<!--								<td th:text="${#dates.format(blogOne.createtime,'yyyy-MM-dd')}">2020.11.98</td>-->
+								<td th:text="${blogOne.publish} ? '是':'否'"></td>
+								<td th:text="${blogOne.recommend} ? '是' :'否'"></td>
+								<td><a href="#" class="ui basic primary mini button" th:href="@{/admin/updateblog(id=${blogOne.id})}">更新</a> <button href="#" class="ui basic negative mini button" onclick="deleteblog(this)">删除</button></td>
+							</tr>
+						</tbody>
+					</table>
+				 <div>
+					 <a href="#" class="ui teal basic left floated button" th:href="@{/admin/release}">新增</a>
+					 <div class="ui right floated pagination menu" id="pageinfo">
+						 <p class=" icon item" style="margin-bottom: 0px">第<span th:text="${blogPage.pageNum}" class="ui teal " style="color: teal"></span>页/共<span th:text="${blogPage.pages}" class="ui teal " style="color: teal"></span>页</p>
+						 <a class="ui icon item button" th:href="@{/admin/admintage(pageNum=${blogPage.navigateFirstPage},pageSize=5)}" style="color: teal" id="pageIndex">首页
+
+						 </a>
+						 <a class="ui icon item teal button " th:href="@{/admin/admintage(pageNum=${blogPage.prePage},pageSize=5)}" style="color: teal" id="prePage">上一页
+
+						 </a>
+
+						 <a class="ui icon item teal button" th:href="@{/admin/admintage(pageNum=${blogPage.nextPage},pageSize=5)}" style="color: teal" id="nextPage">下一页
+
+						 </a>
+						 <a class="ui icon item teal button" th:href="@{/admin/admintage(pageNum=${blogPage.navigateLastPage},pageSize=5)}" style="color: teal" id="LastPage">尾页
+
+						 </a>
+					 </div>
+				 </div>
+				</div>
+			
+			
+		</div>
+		
+		<footer class="ui inverted vertical segment my-padded-massive" th:replace="admin/_fragment :: footer">
+			 <div class="ui center aligned container">
+			        <div class="ui inverted divided grid stackable">
+			            <div class="three wide column">
+			                <div class="ui inverted link list">
+			                    <div class="item">
+			                        <img src="./image/weixin.jpg" class="ui rounded image" alt="" style="width: 110px">
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="three wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">最新博客</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                    <a href="#" class="item">用户故事(User Story)</a>
+			                </div>
+			            </div>
+			            <div class="four wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">联系我</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">Email：1799749389@qq.com</a>
+			                    <a href="#" class="item">QQ：1799749389</a>
+			                   
+			                </div>
+			            </div>
+			            <div class="six wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">My Blue</h4>
+			                <p class="my-opacity-mini my-text-lined">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+			            </div>
+			        </div>
+			        <div class="ui inverted section divider "></div>
+			        <p class="my-text-thin my-text-spaced my-text-lined my-opacity-mini">Copyright &copy; 2020 skg-xsn Designed by skg-xsn</p>
+			    </div>
+		</footer>
+
+
+		<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+		<script type="text/javascript" src="js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+		<script>
+			$('.m-margin-top').click(function(){
+				$('.m-item').toggleClass('m-model-hide')
+			});
+			$('.ui.dropdown').dropdown({
+				on:'hover'
+			});
+			$("#searchSubmit").click(function () {
+				// $.ajax({
+				// 	url:'/admin/searchBlog',
+				// 	type:'get',
+				// 	data:$('#form').serialize(),
+				// })
+				$("#form").submit();
+			});
+			function deleteblog(data){
+				if(confirm("确定要删除这条记录吗?")){
+					var $this=$(data);
+					var bid=$this.parent().prev().prev().prev().prev().prev().text();
+					$.ajax({
+						url:"/admin/deleteBlog",
+						type:"post",
+						data:{"id":bid},
+						success:function(data){
+							if(data=="success"){
+								$(location).attr("href","/admin/adminblog");
+							}
+
+						},
+						error:function(){
+
+						}
+
+					});
+				}else{
+					return false;
+				}
+			};
+			$(".message .close").on('click',function () {
+				$(this).closest('.message').transition('fade')
+			});
+			var pagetext=$("#pageinfo > p >span:first-child").text();
+			var Lastpage=$("#pageinfo > p >span:last-child").text();
+			if (pagetext=="1"){
+				$("#prePage").addClass("disabled");
+				$("#pageIndex").addClass("disabled");
+			};
+			if (pagetext==Lastpage){
+				$("#nextPage").addClass('disabled');
+				$("#LastPage").addClass('disabled');
+			};
+			$('#latestblog').load('/admin/newblogList');
+		</script>
+	</body>
+</html>

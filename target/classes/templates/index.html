@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>博客首页</title>
+		<link type="text/css" href="css/semantic.min.css"  rel="stylesheet" th:href="@{/webjars/Semantic-UI/2.2.10/semantic.css}" />
+		<link type="text/css" href="./css/index.css" rel="stylesheet" th:href="@{/css/index.css}"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/components/icon.min.css" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.0/components/icon.min.css}">
+	</head>
+	<body>
+		<!-- 导航栏 -->
+		<nav class="ui inverted attached segment my-padded-tb-mini" >
+		    <div class="ui container">
+		        <div class="ui inverted secondary stackable menu">
+		            <h2 class="ui teal header item">Blog</h2>
+		            <a href="#" class="item m-model-hide m-item active"><i class="home icon"></i>首页</a>
+		            <a href="#" class="item m-model-hide m-item"th:href="@{/types}" ><i class="idea icon"></i>分类</a>
+		            <a href="#" class="item m-model-hide m-item " th:href="@{/tags}"><i class="tags icon"></i>标签</a>
+<!--					<a href="#" class="item m-model-hide m-item" th:href="@{/archived}"><i class="folder open icon"></i>归纳</a>-->
+		            <a href="#" class="item m-model-hide m-item" th:href="@{/aboutme}"><i class="info icon"></i>关于我</a>
+		            <div class="right item m-model-hide m-item">
+		                <div class="ui icon inverted transparent input">
+		                    <input type="text" placeholder="Search...">
+		                    <i class="search link icon"></i>
+		                </div>
+		            </div>
+					<div class="right item m-model-hide m-item" th:if="${session.user}==null">
+						<i class="user icon"></i>
+						<a href="#" th:href="@{/admin}">登录</a>
+					</div>
+					<div class="right item m-model-hide m-item" th:if="${session.user}!=null">
+						<div class="ui dropdown item m-item">
+							<div class="text">
+								<img src="https://picsum.photos/seed/picsum/200/300" style="width: 30px; height: 50px;" class="ui avatar image" th:src="@{${session.user.getAvator()}}"/>
+								<p th:text="${session.user.getUsername()}" style="float: right"></p>
+							</div>
+							<i class="dropdown icon"></i>
+							<div class="ui menu m-item">
+								<a href="#" th:href="@{/index}" class="item" th:if="${session.user.getType()}=='1'">后台管理中心</a>
+								<a href="#" class="item" th:href="@{/logout}">注销</a>
+							</div>
+						</div>
+					</div>
+		        </div>
+		    </div>
+			<a href="#" class="ui black icon button m-margin-top">
+				<i class="sidebar icon"></i>
+			</a>
+		</nav>
+		
+
+		<!-- 中间部分 -->
+		<div class="my-padded-massive">
+			<span style="display: none" th:text="${pageblogIndex.pageNum}" id="PageNum"></span>
+			<span style="display: none" th:text="${pageblogIndex.navigateLastPage}" id="LastPage"></span>
+			<div class="ui container">
+				<div class="ui stackable grid">
+					<div class="eleven wide column">
+						<!-- header -->
+						<div class="ui top attached segment">
+							<div class="ui two column grid middle aligned">
+								<div class="column">
+									<h3 class="ui header teal">博客</h3>
+								</div>
+								<div class=" right aligned column">
+									共 <h2 class="ui header orange m-dlock" th:text="${pageblogIndex.list.size()}">14</h2> 篇博客
+								</div>
+							</div>
+						</div>
+						<!-- content -->
+						<div class="ui segment attached ">
+							<div class="ui segment padded vertical " th:each="blogOne : ${pageblogIndex.list}" >
+							<div class="ui  stackable grid mobile reversed ">
+								<div class="eleven wide column blog" >
+									<a href="#" class="ui header" th:text="${blogOne.title}" th:href="@{/blogmessage(id=${blogOne.id})}">如何使用Mysql</a>
+									<p th:text="${blogOne.blogdescribe}" style="padding-top: 15px">何时可掇和会计师的卡是肯德基奥斯卡大神但是</p>
+									<div class="ui grid">
+										<div class="eleven wide column">
+											<div class="ui link list horizontal mini">
+												<div class="item">
+													<img src="https://picsum.photos/seed/picsum/200/300" style="width: 30px; height: 30px;"  class="ui avatar image" th:src="@{${blogOne.users.avator}}"/>
+													<div class="content"><a href="#" class="header" th:text="${blogOne.users.username}">王伟</a></div>
+												</div>
+												<div class="item">
+													<i class="calendar icon"></i><span th:text="${#dates.format(blogOne.createtime,'yyyy-MM-dd')}">dfd</span>
+												</div>
+												<div class="item">
+													<i class="eye icon"></i><span th:text="${blogOne.views}" style="line-height: 35px"></span>
+												</div>
+											</div>
+										</div>
+										<div class="five wide column right aligned" >
+											<a href="#" target="_blank" class="ui teal basic label">认知升级</a>
+										</div>						 
+									</div>
+								</div>
+								
+								<div class="five wide column">
+									<a href=""><img src="https://picsum.photos/seed/picsum/200/300" style="width: 200px; height: 150px;"th:src="@{${blogOne.firstpicture}}"/></a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<!-- footer -->
+						<div class="ui buttom attached segment">
+							<div class="ui two column grid middle aligned">
+								<div class="column">
+									<a href="" class="ui button mini teal basic prePage" th:href="@{/(pageNum=${pageblogIndex.prePage},pageSize=4)}">上一页</a>
+								</div>
+								<div class=" right aligned column">
+									<a href="" class="ui button mini teal basic nextPage" th:href="@{/(pageNum=${pageblogIndex.nextPage},pageSize=4)}">下一页</a>
+								</div>
+							  </div>
+						</div>
+					</div>
+					<!-- 右边栏 -->
+					<div class="five wide column">
+						<div class="ui  stackable  segments">
+						   <div class="ui secondary segment">
+							<div class="ui two column grid ">
+								<div class="column">
+									<i class="idea icon"></i>标签
+								</div>
+								<div class="column right aligned">
+									<a href="#" th:href="@{/tags.html}">more>></a>
+								</div>
+							</div>
+						 </div>
+						 <div class="ui teal segment">
+							 <div class="ui menu fluid vertical m-text-fize">
+								 <a href="#"  class="teal basic  item" th:each="tages:${AllTages}" th:text="${tages.getTage()}" th:href="@{/tageLike(tageName=${tages.getTage()})}">
+									   学习日记
+								 </a>
+							 </div>
+						 </div>
+						</div>
+						<div class="ui segments stackable">
+						   <div class="ui secondary  segment">
+							 <div class="ui two column grid ">
+								<div class="column">
+									<i class="idea icon"></i>分类
+								</div>
+								<div class="column right aligned">
+									<a href="#" th:href="@{/types.html}">more>></a>
+								  </div>
+								</div>
+							 </div>
+							 <div class="ui teal segment ">
+								 <a href="#" class="ui label teal basic left pointing m-margin-thin " th:each="type:${AllType}" th:text="${type.getName()}" th:href="@{/typeLike(typeName=${type.getName()})}">方法论</a>
+							 </div>
+						   </div>
+						   <div class="ui segments stackable">
+							   <div class="ui secondary segment">
+							   	<div class="ui two column grid ">
+									<div class="column">
+										<i class="idea icon"></i>最新推荐
+									</div>
+							   	</div>
+							 </div>
+							 <div class="ui segment stackable m-text-fize" th:each="blogOne : ${pageblogIndex.list}">
+								 <a href="#" th:text="${blogOne.title}" th:href="@{/blogmessage(id=${blogOne.id})}">用户故事</a>
+							 </div>
+						   </div>
+						   <h4 class="ui horizontal divider header">扫码关注我</h4>
+						   <div class="ui card centered" style="width: 140px;">
+							   <img src="image/weixin.jpg" th:href="@{/image/weixin.jpg}" alt=""  class="ui rounded image"/>
+						   </div>
+						 </div>
+					</div>
+		    </div>
+		</div>
+		
+		<!-- 页脚 -->
+		<footer class="ui inverted vertical segment my-padded-massive">
+			 <div class="ui center aligned container">
+			        <div class="ui inverted divided grid stackable">
+			            <div class="three wide column">
+			                <div class="ui inverted link list">
+			                    <div class="item">
+			                        <img src="./image/weixin.jpg" class="ui rounded image" alt="" style="width: 110px">
+			                    </div>
+			                </div>
+			            </div>
+			            <div class="three wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">最新博客</h4>
+							<div id="latestblog">
+								<div class="ui inverted link list" th:fragment="newblogList">
+									<a href="#" class="item"  th:each="blog : ${newblog}" th:text="${blog.title}" th:href="@{/blogmessage(id=${blog.id})}">用户故事(User Story)</a>
+								</div>
+							</div>
+			            </div>
+			            <div class="four wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">联系我</h4>
+			                <div class="ui inverted link list">
+			                    <a href="#" class="item">Email：1799749389@qq.com</a>
+			                    <a href="#" class="item">QQ：1799749389</a>
+			                   
+			                </div>
+			            </div>
+			            <div class="six wide column">
+			                <h4 class="ui inverted header my-text-spaced my-text-lined my-opacity-mini">My Blue</h4>
+			                <p class="my-opacity-mini my-text-lined">这里是我的个人博客、会分享我学习编程过程中的经理和心得，希望可以给来到这里的人带来帮助...</p>
+			            </div>
+			        </div>
+			        <div class="ui inverted section divider "></div>
+			        <p class="my-text-thin my-text-spaced my-text-lined my-opacity-mini">Copyright &copy; 2020 skg-xsn Designed by skg-xsn</p>
+			    </div>
+		</footer>
+
+
+		<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+		<script type="text/javascript" src="js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+		<script type="text/javascript">
+			$('.m-margin-top').click(function(){
+				$('.m-item').toggleClass('m-model-hide')
+			});
+			$('.ui.dropdown').dropdown({
+				on:'hover'
+			});
+			var pageNum=$('#PageNum').text();
+			var LastPage=$('#LastPage').text();
+			if (pageNum==1){
+				$(".prePage").addClass('disabled');
+			};
+			if (LastPage==pageNum){
+				$('.nextPage').addClass('disabled');
+			};
+			$('#latestblog').load('/newblogList');
+		</script>
+	</body>
+</html>

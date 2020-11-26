@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link type="text/css" href="../static/css/semantic.min.css" rel="stylesheet" th:href="@{/webjars/Semantic-UI/2.2.10/semantic.css}" />
+    <link type="text/css" href="../static/css/index.css" rel="stylesheet" th:href="@{/css/index.css}"/>
+    <link type="text/css" href="../static/css/blog.css" rel="stylesheet" th:href="@{/css/blog.css}"/>
+</head>
+<body>
+
+<div class="ui middle aligned center aligned grid">
+    <div class="ui container m-margin-max my-padded-massive" >
+        <div class="column m-contain-max-thin">
+            <h2 class="ui teal center aligned header">
+                登录
+            </h2>
+            <form class="ui large form" th:action="@{/admin/login}" method="post">
+                <div class="ui  segment">
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="username" placeholder="用户名">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password" name="password" placeholder="密码">
+                        </div>
+                    </div>
+                    <button class="ui fluid large teal submit button">Login</button>
+                </div>
+
+                <div class="ui error message"></div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+<script src="./lib/Jquery/jquery-3.4.1.min.js" th:src="@{/webjars/jquery/3.0.0/jquery.js}"></script>
+<script type="text/javascript" src="../static/js/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.2.10/semantic.js}"></script>
+<script>
+    $('.ui.form')
+        .form({
+            fields: {
+                username: {
+                    identifier: 'username',
+                    rules: [
+                        {
+                            type   : 'empty',
+                            prompt : '请输用户名'
+                        }
+                    ]
+                },
+                password: {
+                    identifier: 'password',
+                    rules: [
+                        {
+                            type   : 'empty',
+                            prompt : '请输入密码'
+                        }
+                    ]
+                }
+            }
+        })
+    ;
+</script>
+</body>
+
+</html>
